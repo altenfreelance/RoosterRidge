@@ -11,6 +11,7 @@
 <body>
 <?php
     echo ("<h1>This is Rooster Ridge</h1>");
+    echo ("<p>Hello</p>");
 ?>
     
 </body>
