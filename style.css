@@ -6,6 +6,7 @@
     min-height: 70vh;
     
     padding-top:0px;
+    padding-bottom: 0px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -37,10 +38,6 @@ text-align: center;
     background-color: darkred;
 }
 
-.event {
-    padding-bottom: 20px;
-    background-color: lightgray;
-}
 
 .pop {
     padding-top:20px;

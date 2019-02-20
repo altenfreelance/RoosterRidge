@@ -21,14 +21,12 @@ include "classes/footer.php";
         <div class="container-fluid" >
 
             <div class="parallax text-center">
-                <h1 id="RoosterRidge" class="heading" style="padding-top:100px;" >Rooster Ridge</h1>
+                <h1 id="RoosterRidge" class="heading" style="padding-top:100px; margin-bottom:0px;" >Rooster Ridge</h1>
             </div>
-
-
-        <?php
-        $nav = new Nav();
-        echo $nav;
-        ?>
+            <?php
+            $nav = new Nav();
+            echo $nav;
+            ?>
         
             <div class="container" >
                 <div class="row">
