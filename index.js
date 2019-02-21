@@ -31,17 +31,17 @@ function expandCollapse(){
             <div class="row w-100">
               <div id="expandCollapseBtn" onClick=expandCollapse() class="col-12 nav-button">≡
               </div>
-              <hr/>
-              <div class="col-12 col-md-3 nav-button">          
+              <hr class="d-none">
+              <div class="d-none col-12 col-md-3 nav-button">          
                 <a href="#aboutTheBand">About the Band</a>
               </div>
-              <div class="col-12 col-md-3 nav-button">          
+              <div class="d-none col-12 col-md-3 nav-button">          
                 <a href="#members">Members</a>
               </div>
-              <div class="col-12 col-md-3 nav-button">                                                                
+              <div class="d-none col-12 col-md-3 nav-button">                                                                
                 <a href="#events">Events</a>
               </div>
-              <div class="col-12 col-md-3 nav-button">          
+              <div class="d-none col-12 col-md-3 nav-button">          
                 <a href="#contact">Contact</a>
               </div>
             </div>
