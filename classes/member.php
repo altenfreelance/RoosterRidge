@@ -23,7 +23,6 @@ class Member
         <img class="card-img-top" src="/images/'. $this->imgURL .'" alt="Card image cap">
         <div class="card-body">
         <h3 class="card-text font-weight-bold">'. $this->first_name .' '. $this->last_name . '</h3>
-        <p class="font-weight-bold">Instruments: </p>
         <p>'. $this->instruments .'</p>
         </div>
         </div>';

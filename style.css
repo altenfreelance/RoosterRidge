@@ -70,12 +70,29 @@ body {
     color: white;
     width:100%;
 }
+
+.jumbotron {
+    opacity: .9;
+    border-radius: 25px;
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ecdac5, #c3bad5, #e5b291); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
 #zap{
     position: fixed;
     top:0px;
+    background-image: url("images/background-sky.jpg");
+    
+    background-size: cover;
     
 }
-
+.grass {
+    /* background-color: transparent; */
+    background-image: url("images/background-grass.jpg");
+    background-size: cover;
+    height: 20px;
+}
 hr {
     color:white;
     height: 1px;
@@ -90,7 +107,6 @@ hr {
     text-align: center;
     padding-top:20px;
     padding-bottom:20px;
-    border-top: 6px solid grey;
 }
 
 
