@@ -30,11 +30,12 @@ class Event
         <div class="carousel-inner">';
 
         for ($i = 0; $i < count($this->images); $i++) {
-            if ($i == 0) {
-                $html .= '<div class="carousel-item active">';
-            } else {
-                $html .= '<div class="carousel-item">';
-            }
+            
+            if ($i == 0) $active = " active";
+            else $active="";
+
+            $html .= '<div class="carousel-item' . $active .'">';
+
 
             $html .= '<img class="d-block w-100" src="images/' . $this->images[$i] . '">
             </div>';

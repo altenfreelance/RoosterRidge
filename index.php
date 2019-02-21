@@ -21,12 +21,13 @@ include "classes/footer.php";
         <div class="container-fluid" >
 
             <div class="parallax text-center">
-                <h1 id="RoosterRidge" class="heading" style="padding-top:100px; margin-bottom:0px;" >Rooster Ridge</h1>
+                <h1 class="roosterridge" style="padding-top:100px; margin-bottom:0px;" >Rooster Ridge</h1>
+                <?php
+                $nav = new Nav();
+                echo $nav;
+                ?>
             </div>
-            <?php
-            $nav = new Nav();
-            echo $nav;
-            ?>
+            
         
             <div class="container" >
                 <div class="row">
@@ -44,9 +45,11 @@ include "classes/footer.php";
                     
                     $LCK_images = ["LCK_1.jpg" ,"LCK_2.jpg"];
                     $LCK = new Event("Loveland Canoe and Kayak", "174 Karl Brown Way, Loveland, OH 45140", "04/27/2019","1:00PM to 3:00PM", "Come down to Loveland Canoe and Kayak for some great music and fun!", $LCK_images);
+                    
+
                     $events = [$cappys, $LCK];
                     
-                    echo '<h1 id="events" class="heading col-12">Events ('.count($events).')</h2>';
+                    echo '<h1 id="events" class="heading col-12">Events</h2>';
                     echo '<div class="col-12">';
                     foreach ($events as $event){
                         echo '<div class="jumbotron">';
@@ -63,13 +66,13 @@ include "classes/footer.php";
                     <h1 id="members" class="col-12 heading">Band Members</h2>
                     <?php
                     $members = [
-                        new Member("Andrew", "Alten", "Mandolin, banjo, vocals and guitar", "/images/placeholder.png"),
-                        new Member("Jacob", "Alten", "Guitar, vocals and percussion", "/images/placeholder.png"),
-                        new Member("Dave", "Blumberg", "Bass, vocals and guitar", "/images/placeholder.png"),
-                        new Member("Greg", "Stevens", "Banjo, guitar and fiddle", "/images/placeholder.png"),
-                        new Member("Bryce", "Clawson", "Vocals, harp, and fiddle", "/images/placeholder.png"),
-                        new Member("Vince", "Stevens", "Dobro and guitar", "/images/placeholder.png"),
-                        new Member("Joey", "Oberholzer", "Vocals and percussion", "/images/placeholder.png"),
+                        new Member("Andrew", "Alten", "Mandolin, banjo, vocals and guitar", "andrew.jpg"),
+                        new Member("Jacob", "Alten", "Guitar, vocals and percussion", "placeholder.png"),
+                        new Member("Dave", "Blumberg", "Bass, vocals and guitar", "placeholder.png"),
+                        new Member("Greg", "Stevens", "Banjo, guitar and fiddle", "placeholder.png"),
+                        new Member("Bryce", "Clawson", "Vocals, harp, and fiddle", "placeholder.png"),
+                        new Member("Vince", "Stevens", "Dobro and guitar", "placeholder.png"),
+                        new Member("Joey", "Oberholzer", "Vocals and percussion", "placeholder.png"),
                     ];
 
                     foreach ($members as $member) {
@@ -95,8 +98,10 @@ include "classes/footer.php";
         <!-- end container-fluid -->
         </div>
 
+        
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="index.js" ></script>
     </body>
 </html>
