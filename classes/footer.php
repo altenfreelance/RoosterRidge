@@ -4,7 +4,7 @@ class Footer {
 
     public function __toString(){
 
-        return '<section class="footer navbar">
+        return '<section class="footer">
                     <div class="container">
                         <div col="col-12 col-md-4 col-lg-3">
                             <p><strong>Phone: </strong>513-833-3889</p>

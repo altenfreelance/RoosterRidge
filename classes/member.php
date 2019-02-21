@@ -20,7 +20,7 @@ class Member
     public function __toString()
     {
         return '<div class="card col-6 col-sm-4 col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="'. $this->imgURL .'" alt="Card image cap">
+        <img class="card-img-top" src="/images/'. $this->imgURL .'" alt="Card image cap">
         <div class="card-body">
         <h3 class="card-text font-weight-bold">'. $this->first_name .' '. $this->last_name . '</h3>
         <p class="font-weight-bold">Instruments: </p>
