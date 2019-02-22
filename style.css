@@ -16,27 +16,18 @@
     position:relative;
 }
 
-body {
-    background-color: transparent;
-    text-align: center;
+h2 {
+  color:#51a5d0;
 }
 
-.heading {
-  font-family: "Lucida Console";
-  font-size: 47px;
-  letter-spacing: 6px;
-  word-spacing: 1px;
-  color: #d30000;
-  font-weight: 500;
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: capitalize;
-  text-align: center;
+.slide {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .roosterridge {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 80px;
+  font-size: 10vh;
   letter-spacing: 6px;
   word-spacing: 6px;
   color: rgb(255, 242, 25);
@@ -46,53 +37,86 @@ body {
   font-variant: small-caps;
   text-transform: capitalize;
   text-align: center;
+  padding-bottom:40vh
   
 }
+
+#aboutTheBand {
+  padding-top:0px
+}
+
+body {
+    background-color: transparent;
+    text-align: center;
+    color:white;
+    font-size:x-large
+}
+
+.heading {
+  font-family: "Lucida Console";
+  font-size: 60px;
+  letter-spacing: 6px;
+  /* display: flex; */
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  word-spacing: 1px;
+  color: #fff219;
+  font-weight: 500;
+  background-color:black;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
 
 .bottom {
     bottom: 0px;
 }
+
 .navbar {
-
-    background-color: rgba(0, 0, 0, 0.2);
-    position: absolute;
-    width:100%;
-    
-
-    /* left:50%; */
-    /* margin: 0 auto; */
+  padding-bottom: 40px
 }
 
-.navbar a, .navbar div {
-    text-align:center;
+.navbar a {
     font-size:28px;
-    /* padding-right:50px; */
-    color: white;
-    width:100%;
+    color: #f6f6f3;
+    text-decoration: underline;
 }
 
-.jumbotron {
-    opacity: .9;
+.navbar a:hover {
+    text-decoration: none;
+}
+a {
+    font-size:28px;
+    color: #f6f6f3;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+
+.black-transparent {
+
+    opacity: 1;
     border-radius: 25px;
-    background: #77A1D3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ecdac5, #c3bad5, #e5b291); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
+    background-color:#08000d82
+}
 
 #zap{
     position: fixed;
     top:0px;
     background-image: url("images/background-sky.jpg");
-    
     background-size: cover;
-    
+    background-attachment: fixed;
+    background-position: center;
 }
-.grass {
-    /* background-color: transparent; */
-    background-image: url("images/background-grass.jpg");
-    background-size: cover;
-    height: 20px;
-}
+
 hr {
     color:white;
     height: 1px;
