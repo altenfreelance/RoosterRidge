@@ -10,6 +10,20 @@ class Event
     public $description;
     public $images;
 
+    private $months = ["Jan", "Feb","Mar","Apr","May","Jun","July","Aug","Sept","Oct","Nov", "Dev" ];
+
+    private function print_pretty_Date(){
+        $dateParts = explode("/",$this->date);
+        $month = intval($dateParts[0]);
+        $month = $this->months[$month];
+
+        $day = $dateParts[1];
+        $year =$dateParts[2];
+
+        return $month . " " . $day . ", " . $year;
+        
+    }
+
     public function __construct($locationName, $locationAddress, $date, $timeFrame, $description, $images)
     {
         $this->locationName = $locationName;
@@ -23,8 +37,8 @@ class Event
     public function __toString()
     {
         $html .= '<h2>'.$this->locationName.'</h2>';
-        $html .= '<p><strong>When?</strong> - '. $this->date .' from '. $this->timeFrame.'</hp>';
-        $html .= '<p><strong>Where?</strong> - '. $this->locationAddress . '</p>';
+        $html .= '<p>'. $this->print_pretty_Date() .' from '. $this->timeFrame.'</p>';
+        $html .= '<a href="https://maps.google.com/?q='.$this->locationAddress.'">'. $this->locationAddress . '</a>';
 
         $html .= '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">';
