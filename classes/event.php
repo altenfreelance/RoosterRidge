@@ -14,7 +14,7 @@ class Event
 
     private function print_pretty_Date(){
         $dateParts = explode("/",$this->date);
-        $month = intval($dateParts[0]);
+        $month = intval($dateParts[0]) - 1;
         $month = $this->months[$month];
 
         $day = $dateParts[1];

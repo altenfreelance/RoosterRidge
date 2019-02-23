@@ -24,7 +24,7 @@ include "classes/footer.php";
             
             <div class="container-fluid" >
                 
-            <div class="container" >
+                <div class="container" >
 
                     <div class="row">
                         <div id="aboutTheBand" class="jumbotron black-transparent">
@@ -55,7 +55,6 @@ include "classes/footer.php";
                             echo '<div class="col-12 col-md-6">';
                                 echo $event;
                             echo '</div>';
-
                         }
                         ?>
                     </div>
