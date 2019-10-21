@@ -20,7 +20,7 @@ class Member
     public function __toString()
     {
         return '<h2>'. $this->first_name .' '. $this->last_name . '</h2>
-        <img class="card-img-top" src="/images/'. $this->imgURL .'">
+        <img class="card-img-top" alt="' . $this->first_name. '" src="images/'. $this->imgURL .'">
         <p>'. $this->instruments .'</p>';
 
     }
