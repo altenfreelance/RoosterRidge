@@ -18,7 +18,7 @@ class Nav
                         <a href="#events">Events</a>
                       </div>
                       <div class="col-12 col-md-3 nav-button">          
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Social/Contact</a>
                       </div>
                     </div>
                   </div>

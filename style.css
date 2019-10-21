@@ -37,7 +37,9 @@ h2 {
   font-variant: small-caps;
   text-transform: capitalize;
   text-align: center;
-  padding-bottom:40vh
+
+  padding-top:10vh;
+  padding-bottom:0vh;
   
 }
 
@@ -46,15 +48,15 @@ h2 {
 }
 
 body {
-    background-color: transparent;
+    background-color: none;
     text-align: center;
     color:white;
-    font-size:x-large
+    font-size:medium;
 }
 
 .heading {
   font-family: "Lucida Console";
-  font-size: 60px;
+  font-size: 40px;
   letter-spacing: 6px;
   /* display: flex; */
   -ms-flex-wrap: wrap;
@@ -64,7 +66,7 @@ body {
   word-spacing: 1px;
   color: #fff219;
   font-weight: 500;
-  background-color:black;
+  /* background-color:black; */
   font-style: normal;
   font-variant: small-caps;
   text-transform: capitalize;
@@ -103,9 +105,9 @@ a:hover {
 
 .black-transparent {
 
-    opacity: 1;
+    opacity: .85;
     border-radius: 25px;
-    background-color:#08000d82
+    background-color:rgba(0, 0, 0, 0.9)
 }
 
 #zap{
