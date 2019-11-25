@@ -99,14 +99,14 @@ echo $nav;
 // $_1 = new Event("Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "09/06/2019", "8:00PM to 10:30PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
 // $_2 = new Event("Downtown Loveland", "126 W Loveland Ave, Loveland, OH 45140", "09/08/2019", "1:00PM to 4:00PM", ["Loveland.jpg"], [[]], "Join us in downtown Loveland for open container between Ramsey's and Paxton's!");
 // $_5 = new Event("Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "09/06/2019", "8:00PM to 10:30PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
-$_1 = new Event("Boos and Brews with Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "10/26/2019", "8:00PM to 10:30PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
-$_2 = new Event("Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "11/22/2019", "8:00PM to 10:30PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
+// $_1 = new Event("Boos and Brews with Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "10/26/2019", "8:00PM to 10:30PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
+// $_2 = new Event("Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "11/22/2019", "8:00PM to 10:30PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
 $_3 = new Event("Thanksgiving Eve with Bishop's Quarter", "212 W Loveland Ave, Loveland, OH 45140", "11/27/2019", "8:00PM to 11:00PM", /*"description",*/ ["Bishops.jpg"], [["https://bishopsquarterbar.com", "bishopsquarterbar.com"]]);
 $_4 = new Event("Holidays with Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "12/20/2019", "8:00PM to 10:30PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
-$_5 = new Event("New Years Eve with Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "12/20/2019", "8:00PM to 11:00PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
+$_5 = new Event("New Years Eve with Cappys Wine and Spirits", "309 W. Loveland Ave, Loveland, OH 45140", "12/31/2019", "8:00PM to 11:00PM", /*"description",*/ ["Cappys_Us.jpg", "Cappys.jpg"], [["https://lovelandcappys.com/", "lovelandcappys.com"]]);
 
 
-$events = [$_1, $_2, $_3, $_4, $_5];
+$events = [$_3, $_4, $_5];
 // , $LCK];
 
 foreach ($events as $event) {
@@ -120,13 +120,13 @@ foreach ($events as $event) {
                         <h1 id="members" class="heading col-12">Band Members</h2>
                         <?php
 $members = [
-    new Member("Bryce", "Clawson", "Vocals and harmonica", "bryce.jpg"),
-    new Member("Greg", "Stevens", "Banjo, guitar and fiddle", "greg.jpg"),
-    new Member("Dave", "Blumberg", "Bass, vocals and guitar", "Dave.jpeg"),
-    new Member("Joey", "Oberholzer", "Vocals and percussion", "joey.jpg"),
-    new Member("Vince", "Stevens", "Dobro and guitar", "vince.jpg"),
-    new Member("Andrew", "Alten", "Mandolin, banjo, and guitar", "andrew.jpg"),
-    new Member("Jacob", "Alten", "Guitar, vocals and percussion", "jacob.jpg"),
+    new Member("Bryce", "Clawson", "Vocals and harmonica", "Bryce.jpg"),
+    new Member("Greg", "Stevens", "Banjo, guitar and fiddle", "Greg.jpg"),
+    new Member("Dave", "Blumberg", "Bass, vocals and guitar", "Dave.jpg"),
+    new Member("Joey", "Oberholzer", "Vocals and percussion", "Joey.jpg"),
+    new Member("Vince", "Stevens", "Dobro and guitar", "Vince.jpg"),
+    new Member("Andrew", "Alten", "Mandolin, banjo, and guitar", "Andrew.jpg"),
+    new Member("Jacob", "Alten", "Guitar, vocals and percussion", "Jacob.jpg"),
     new Member("Dave", "Bauer", "Sound and tech", "OLAS.jpg"),
 ];
 

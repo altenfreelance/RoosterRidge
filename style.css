@@ -1,19 +1,26 @@
 .parallax {
     /* The image used */
-    background-image: url("images/background.jpg");
+    /* background-image: url("images/farm.jpeg"); */
   
     /* Set a specific height */
-    min-height: 80vh;
+    /* min-height: 80vh;
     
     padding-top:0px;
     padding-bottom: 0px;
-  
+   */
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position:relative;
+    position:relative; */
+
+    background: url(images/farm.jpeg) no-repeat center center fixed; 
+    height: 100%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h2 {
@@ -107,7 +114,7 @@ a:hover {
 
     opacity: .85;
     border-radius: 25px;
-    background-color:rgba(0, 0, 0, 0.9)
+    background-color:rgba(0, 0, 0, 1)
 }
 
 #zap{
