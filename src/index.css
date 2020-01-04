@@ -1,0 +1,159 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: lemonchiffon;
+}
+
+.card a {
+  color:blue;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: lemonchiffon;
+  border: .05rem solid lemonchiffon;
+
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body, html {
+  /* background-color:darkgray; */
+  height: 100%; 
+  background: url('/images/farm.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  padding:10px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: lemonchiffon;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+p {
+  color:black;
+}
+
+.logo-circle {
+  border-radius: 50%;
+  margin-right:auto;
+  margin-left:auto;
+  display: inline-block;
+  width: 30%;
+  min-width: 200px;
+  padding: 2em 0px;
+}
+
+.card a, .link {
+  color:blue;
+}
+.card a:hover, .link:hover {
+  color:gray;
+}
+
+
+.cover-container {
+  max-width: 75em;
+}
+
+h1 {
+  font-weight: bolder;
+  text-shadow: 2px 1px maroon;
+}
+h2 {
+  font-weight: bolder;
+  text-shadow: 2px 1px maroon;
+}
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 20px;
+  background-color: rgba(128,0,0, 0.8);
+
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead a {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead a:hover,
+.nav-masthead a:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead a + a {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color:lemonchiffon;
+    /* color: #fff; */
+  border-bottom-color: lemonchiffon;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
