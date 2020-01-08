@@ -18,7 +18,23 @@ function Songs() {
 const playlist = [
     {
         url: 'audio/BloodInTheSoil.mp3',
-        title: 'Blood In the Soil',
+        title: 'Blood In the Soil (12/20/31)',
+    },
+    {
+        url: 'audio/FoolsGold.mp3',
+        title: 'Fools Gold (12/31/19)',
+    },
+    {
+        url: 'audio/CCCL.mp3',
+        title: 'Crawford County Critter Line (12/31/19)',
+    },
+    {
+        url: 'audio/AtlanticCity.mp3',
+        title: 'Atlantic City (12/31/19)',
+    },
+    {
+        url: 'audio/CocaineHabit.mp3',
+        title: 'Cocaine Habit (12/31/19)',
     }
     // ,
     // {
