@@ -14,6 +14,7 @@ import Events from "./Events";
 import VidContainer from './VidContainer';
 import Contact from "./Contact";
 import Songs from "./components/Songs"
+import Bio from "./components/Bio";
 
 function App() {
   const logo_img = 'images/RR.jpg'
@@ -41,7 +42,8 @@ function App() {
               <Redirect to="/home" />
             </Route>
             <Route exact path="/home">
-              <VidContainer />
+              {/* <VidContainer /> */}
+              <Bio/>
             </Route>
             <Route exact path="/shows">
               <Events />

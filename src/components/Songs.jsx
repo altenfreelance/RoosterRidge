@@ -18,7 +18,7 @@ function Songs() {
 const playlist = [
     {
         url: 'audio/BloodInTheSoil.mp3',
-        title: 'Blood In the Soil (12/20/31)',
+        title: 'Blood In the Soil (12/20/19)',
     },
     {
         url: 'audio/FoolsGold.mp3',
