@@ -5,7 +5,14 @@ import "./footer.css";
 export default class Footer extends Component {
   render() {
     return (
-      <footer className="mastfoot mt-auto">
+      <footer className="mastfoot mt-auto" 
+      style={{
+        backgroundColor:'rgba(128,0,0, 0.8)',
+        position: 'absolute',
+        bottom: '0',
+        left: '0',
+        hieght: '2.5rem',
+        right: '0'}}>
         <section id="lab_social_icon_footer">
           <link
             href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"

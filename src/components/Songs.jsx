@@ -19,11 +19,12 @@ const playlist = [
     {
         url: 'audio/BloodInTheSoil.mp3',
         title: 'Blood In the Soil',
-    },
-    {
-        url: 'audio/BloodInTheSoil.mp3',
-        title: '2 In the Soil',
     }
+    // ,
+    // {
+    //     url: 'audio/BloodInTheSoil.mp3',
+    //     title: '2 In the Soil',
+    // }
 ]
 
 export default Songs
