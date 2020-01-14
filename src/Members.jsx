@@ -9,14 +9,14 @@ import Member from './Member'
 // import blum_img from './images/Dave.jpg'
 // import bauer_img from './images/OLAS.jpg'
 function Members(){
-    const andrew_img = 'images/Andrew.jpg';
-    const jacob_img = 'images/Jacob.jpg'
-    const bryce_img = 'images/Bryce.jpg'
-    const greg_img = 'images/Greg.jpg'
-    const joey_img = 'images/Joey.jpg'
-    const vince_img = 'images/Vince.jpg'
-    const blum_img = 'images/Dave.jpg'
-    const bauer_img = 'images/OLAS.jpg'
+    const andrew_img = 'images/members/Andrew.jpg';
+    const jacob_img = 'images/members/Jacob.jpg'
+    const bryce_img = 'images/members/Bryce.jpg'
+    const greg_img = 'images/members/Greg.jpg'
+    const joey_img = 'images/members/Joey.jpg'
+    const vince_img = 'images/members/Vince.jpg'
+    const blum_img = 'images/members/Dave.jpg'
+    const bauer_img = 'images/members/OLAS.jpg'
 
         return (
             <div>

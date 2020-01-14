@@ -4,7 +4,6 @@ import Event from "./Event";
 
 export default function Events(){
 
-    const cappys = "images/cappys/cappys3.jpg";
     const cappys1 = "images/cappys/cappys1.jpg";
     const cappys2 = "images/cappys/cappys2.jpg";
     const cappys3 = "images/cappys/cappys3.jpg";
@@ -12,7 +11,6 @@ export default function Events(){
     const cappys5 = "images/cappys/cappys5.jpg";
 
     const arnolds = "images/arnolds/arnolds_us.jpg";
-    
 
     return (
       <div>
