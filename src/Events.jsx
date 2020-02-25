@@ -12,6 +12,8 @@ export default function Events(){
 
     const arnolds = "images/arnolds/arnolds_us.jpg";
 
+    const downtown = "images/downtown/RailRoadAve.jpg";
+
     return (
       <div>
         <h1>Upcoming Events</h1>
@@ -42,7 +44,7 @@ export default function Events(){
             date="06/28/2020"
             time="6:00pm"
             address="Downtown, Loveland, OH 45140"
-            img_url={cappys2}
+            img_url={downtown}
           />
           <Event
             name="Independence Day with Cappys Wine and Spirits"
