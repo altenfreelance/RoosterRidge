@@ -37,6 +37,13 @@ export default function Events(){
             address="309 W. Loveland Ave, Loveland, OH 45140"
             img_url={cappys1}
           />
+           <Event
+            name="Rooster Ridge in Loveland"
+            date="06/28/2020"
+            time="6:00pm"
+            address="Downtown, Loveland, OH 45140"
+            img_url={cappys2}
+          />
           <Event
             name="Independence Day with Cappys Wine and Spirits"
             date="07/04/2020"
