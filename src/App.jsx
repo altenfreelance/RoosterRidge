@@ -11,14 +11,14 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 import Events from "./Events";
-import VidContainer from './VidContainer';
+// import VidContainer from './VidContainer';
 import Contact from "./Contact";
 import Songs from "./components/Songs"
 import Bio from "./components/Bio";
 
 function App() {
   const logo_img = 'images/RR.jpg'
-  const desktopImage = 'images/farm.jpeg'
+  // const desktopImage = 'images/farm.jpeg'
   return (
     <div
       style={{
