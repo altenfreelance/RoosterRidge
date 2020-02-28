@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
-import Footer from "./Footer";
-import Members from "./Members";
-import NavHeader from "./NavHeader";
+import Footer from "./components/Footer/Footer";
+import Members from "./components/Members/Members";
+import NavHeader from "./components/Nav/NavHeader";
 
 import {
   Route,
@@ -10,11 +10,11 @@ import {
   Switch,
   BrowserRouter as Router
 } from "react-router-dom";
-import Events from "./Events";
+import Events from "./components/Events/Events";
 // import VidContainer from './VidContainer';
-import Contact from "./Contact";
-import Songs from "./components/Songs"
-import Bio from "./components/Bio";
+import Contact from "./components/Contact/Contact";
+import Songs from "./components/Songs/Songs"
+import Bio from "./components/Home/Bio";
 
 function App() {
   const logo_img = 'images/RR.jpg'
