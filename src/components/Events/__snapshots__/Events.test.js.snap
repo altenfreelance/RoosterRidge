@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders (matches snapshot)  1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Upcoming Events
+    </h1>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Bockfest with Arnold's Bar and Grill
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Sat Feb 29 2020
+              </h5>
+              <h5>
+                9:00pm to 12:30pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              210 E 8th St, Cincinnati, OH 45202
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="Bockfest with Arnold's Bar and Grill"
+                caption=""
+                class="border border-dark"
+                src="images/arnolds/arnolds_us.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Cappy's Wine and Spirits
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Sat May 16 2020
+              </h5>
+              <h5>
+                8:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland Ave, Loveland, OH 45140
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="Cappy's Wine and Spirits"
+                caption=""
+                class="border border-dark"
+                src="images/cappys/cappys1.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Rooster Ridge in the Park
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Thu Jun 18 2020
+              </h5>
+              <h5>
+                7:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              6915 Beechmont Ave. and 6910 Salem Road.
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              >
+                Join Rooster Ridge at Beech Acres Park for great music and fun!
+              </figcaption>
+              <img
+                alt="Rooster Ridge in the Park"
+                caption=""
+                class="border border-dark"
+                src="images/beechAcresPark/Amphitheater.png"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Rooster Ridge in Loveland
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Sun Jun 28 2020
+              </h5>
+              <h5>
+                6:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              Downtown, Loveland, OH 45140
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="Rooster Ridge in Loveland"
+                caption=""
+                class="border border-dark"
+                src="images/downtown/RailRoadAve.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Independence Day with Cappy's Wine and Spirits
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Sat Jul 04 2020
+              </h5>
+              <h5>
+                8:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland Ave, Loveland, OH 45140
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="Independence Day with Cappy's Wine and Spirits"
+                caption=""
+                class="border border-dark"
+                src="images/cappys/cappys4.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Cappy's Wine and Spirits
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Sat Aug 15 2020
+              </h5>
+              <h5>
+                8:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland Ave, Loveland, OH 45140
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="Cappy's Wine and Spirits"
+                caption=""
+                class="border border-dark"
+                src="images/cappys/cappys3.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Cappy's Wine and Spirits
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Sat Sep 26 2020
+              </h5>
+              <h5>
+                8:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland Ave, Loveland, OH 45140
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="Cappy's Wine and Spirits"
+                caption=""
+                class="border border-dark"
+                src="images/cappys/cappys2.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Cappy's Wine and Spirits
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Sat Oct 24 2020
+              </h5>
+              <h5>
+                8:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland Ave, Loveland, OH 45140
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="Cappy's Wine and Spirits"
+                caption=""
+                class="border border-dark"
+                src="images/cappys/cappys5.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Thanksgiving Eve with Cappy's Wine and Spirits
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Wed Nov 25 2020
+              </h5>
+              <h5>
+                8:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland Ave, Loveland, OH 45140
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="Thanksgiving Eve with Cappy's Wine and Spirits"
+                caption=""
+                class="border border-dark"
+                src="images/cappys/cappys1.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                New Years Eve with Cappy's Wine and Spirits
+              </b>
+            </h4>
+            <div
+              style="color: black;"
+            >
+              <h5>
+                Thu Dec 31 2020
+              </h5>
+              <h5>
+                8:00pm
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland Ave, Loveland, OH 45140
+            </p>
+            <figure>
+              <figcaption
+                class="figure-caption"
+              />
+              <img
+                alt="New Years Eve with Cappy's Wine and Spirits"
+                caption=""
+                class="border border-dark"
+                src="images/cappys/cappys2.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

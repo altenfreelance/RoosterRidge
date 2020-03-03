@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import NavHeader from './NavHeader';
-import {
-    BrowserRouter as Router
-} from "react-router-dom";
 
-it('renders without crashing', () => {
-const div = document.createElement('div');
+import {render, cleanup} from '@testing-library/react';
+import '@testing-library/jest-dom';
+import {BrowserRouter as Router} from "react-router-dom";
 
-ReactDOM.render(<Router><NavHeader /></Router>, div);
+afterEach(cleanup);
 
-ReactDOM.unmountComponentAtNode(div);
+it('renders (matches snapshot) ', () => {
+    const {asFragment} = render(<Router><NavHeader /></Router>);
+    expect(asFragment()).toMatchSnapshot();
 });

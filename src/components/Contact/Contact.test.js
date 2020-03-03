@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import Contact from './Contact';
 
-it('renders without crashing', () => {
-const div = document.createElement('div');
+import {render, cleanup} from '@testing-library/react';
+import '@testing-library/jest-dom';
 
-ReactDOM.render(<Contact />, div);
+afterEach(cleanup);
 
-ReactDOM.unmountComponentAtNode(div);
+it('renders (matches snapshot) ', () => {
+    const {asFragment} = render(<Contact />);
+    expect(asFragment()).toMatchSnapshot();
 });

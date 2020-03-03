@@ -1,11 +1,29 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import Event from './Event';
 
-it('renders without crashing', () => {
-const div = document.createElement('div');
+import {render, cleanup} from "@testing-library/react";
+import '@testing-library/jest-dom'
 
-ReactDOM.render(<Event />, div);
+const event = {
+    name: "Rooster Ridge in the Park",
+    date: "06/18/2020",
+    time: "7:00pm",
+    address: "6915 Beechmont Ave. and 6910 Salem Road.",
+    caption: "Join Rooster Ridge at Beech Acres Park for great music and fun!",
+    img_url: "images/cappys/cappys1.jpg"
+}
 
-ReactDOM.unmountComponentAtNode(div);
+afterEach(cleanup);
+
+it('renders (matches snapshot) ', () => {
+    const {asFragment} = render(
+        <Event
+        name={event.name}
+        date={event.date}
+        time={event.time}
+        address={event.address}
+        caption={event.caption}
+        img_url={event.img_url} />
+    );
+    expect(asFragment()).toMatchSnapshot();
 });

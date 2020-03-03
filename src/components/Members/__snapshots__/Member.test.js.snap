@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders (matches snapshot)  1`] = `
+<DocumentFragment>
+  <div
+    class="col-sm-4 p-3"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="container"
+      >
+        <h4>
+          <b>
+            Andrew Alten
+          </b>
+        </h4>
+        <p>
+          Mandolin
+        </p>
+      </div>
+      <img
+        alt="Andrew Alten"
+        class="rounded-circle"
+        src="images/members/Andrew.jpg"
+        style="width: 100%;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

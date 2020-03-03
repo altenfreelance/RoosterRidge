@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import Address from './Address';
 
-it('renders without crashing', () => {
-const div = document.createElement('div');
+import {render, cleanup} from '@testing-library/react';
+import '@testing-library/jest-dom';
 
-ReactDOM.render(<Address />, div);
+afterEach(cleanup);
 
-ReactDOM.unmountComponentAtNode(div);
+it('renders (matches snapshot) ', () => {
+    const {asFragment} = render(<Address address="309 W Loveland Ave, Loveland, OH 45140"/>);
+    expect(asFragment()).toMatchSnapshot();
 });
