@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders (matches snapshot)  1`] = `
+<DocumentFragment>
+  <header
+    class="sticky-top masthead rounded px-3 py-2"
+  >
+    <div
+      class="inner"
+    >
+      <h3
+        class="masthead-brand"
+        style="font-family: serif; text-transform: title;"
+      >
+        Rooster Ridge
+      </h3>
+      <nav
+        class="nav nav-masthead justify-content-center"
+      >
+        <a
+          href="/home"
+        >
+          Home
+        </a>
+        <a
+          href="/shows"
+        >
+          Shows
+        </a>
+        <a
+          href="/members"
+        >
+          Members
+        </a>
+        <a
+          href="/contact"
+        >
+          Contact
+        </a>
+        <a
+          href="/music"
+        >
+          Music
+        </a>
+      </nav>
+    </div>
+  </header>
+</DocumentFragment>
+`;

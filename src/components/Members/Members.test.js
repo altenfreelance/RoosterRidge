@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import Members from './Members';
 
-it('renders without crashing', () => {
-const div = document.createElement('div');
+import {render, cleanup} from '@testing-library/react';
+import '@testing-library/jest-dom';
 
-ReactDOM.render(<Members />, div);
+afterEach(cleanup);
 
-ReactDOM.unmountComponentAtNode(div);
+it('renders (matches snapshot) ', () => {
+    const {asFragment} = render(<Members />);
+    expect(asFragment()).toMatchSnapshot();
 });

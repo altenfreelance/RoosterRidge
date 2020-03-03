@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders (matches snapshot)  1`] = `
+<DocumentFragment>
+  <footer
+    class="mastfoot mt-auto"
+    style="background-color: rgba(128, 0, 0, 0.8); position: absolute; bottom: 0px; left: 0px; right: 0px;"
+  >
+    <section
+      id="lab_social_icon_footer"
+    >
+      <link
+        href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+        rel="stylesheet"
+      />
+      <div
+        class="container"
+      >
+        <div
+          class="text-center center-block"
+        >
+          <a
+            href="https://www.youtube.com/channel/UCE0jXwLwL7T6zIoQCnHVUzw"
+          >
+            <i
+              class="fa fa-youtube-square fa-3x social"
+              id="social-yt"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/RoosterRidgeOfficial/"
+          >
+            <i
+              class="fa fa-facebook-square fa-3x social"
+              id="social-fb"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/roosterridgeofficial/"
+          >
+            <i
+              class="fa fa-instagram fa-3x social"
+              id="social-ig"
+            />
+          </a>
+          <a
+            href="mailto:roosterridgeofficial@gmail.com"
+          >
+            <i
+              class="fa fa-envelope-square fa-3x social"
+              id="social-em"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+  </footer>
+</DocumentFragment>
+`;

@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders (matches snapshot)  1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Meet the Band
+    </h1>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-4 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Andrew Alten
+              </b>
+            </h4>
+            <p>
+              Mandolin
+            </p>
+          </div>
+          <img
+            alt="Andrew Alten"
+            class="rounded-circle"
+            src="images/members/Andrew.jpg"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="col-sm-4 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Jacob Alten
+              </b>
+            </h4>
+            <p>
+              Vocal and Guitar
+            </p>
+          </div>
+          <img
+            alt="Jacob Alten"
+            class="rounded-circle"
+            src="images/members/Jacob.jpg"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="col-sm-4 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Bryce Clawson
+              </b>
+            </h4>
+            <p>
+              Vocals and Harmonica 
+            </p>
+          </div>
+          <img
+            alt="Bryce Clawson"
+            class="rounded-circle"
+            src="images/members/Bryce.jpg"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="col-sm-4 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Greg Stevens
+              </b>
+            </h4>
+            <p>
+              Banjo and Guitar
+            </p>
+          </div>
+          <img
+            alt="Greg Stevens"
+            class="rounded-circle"
+            src="images/members/Greg.jpg"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="col-sm-4 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Joey Oberholzer
+              </b>
+            </h4>
+            <p>
+              Vocals
+            </p>
+          </div>
+          <img
+            alt="Joey Oberholzer"
+            class="rounded-circle"
+            src="images/members/Joey.jpg"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="col-sm-4 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Vince Stevens
+              </b>
+            </h4>
+            <p>
+              Dobro
+            </p>
+          </div>
+          <img
+            alt="Vince Stevens"
+            class="rounded-circle"
+            src="images/members/Vince.jpg"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="col-sm-4 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Dave Blumberg
+              </b>
+            </h4>
+            <p>
+              Bass
+            </p>
+          </div>
+          <img
+            alt="Dave Blumberg"
+            class="rounded-circle"
+            src="images/members/Dave.jpg"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+      <div
+        class="col-sm-4 p-3"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Dave Bauer
+              </b>
+            </h4>
+            <p>
+              Sound
+            </p>
+          </div>
+          <img
+            alt="Dave Bauer"
+            class="rounded-circle"
+            src="images/members/OLAS.jpg"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
