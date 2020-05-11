@@ -13,11 +13,11 @@ import {
 import Events from "./components/Events/Events";
 // import VidContainer from './VidContainer';
 import Contact from "./components/Contact/Contact";
-import Songs from "./components/Songs/Songs"
+import Songs from "./components/Songs/Songs";
 import Bio from "./components/Home/Bio";
 
 function App() {
-  const logo_img = 'images/RR.jpg'
+  const logo_img = 'images/RR.jpg';
   // const desktopImage = 'images/farm.jpeg'
   return (
     <div

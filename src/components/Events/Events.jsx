@@ -2,7 +2,17 @@ import React from "react";
 import Event from "./Event";
 
 function sortEvents(events) {
-  
+
+  //Remove old events (only keep shows yesterday or in the future)
+  const yesterday = new Date(new Date());
+  yesterday.setDate(yesterday.getDate() - 2);
+  events = events.filter(event => {
+    let eventDate = new Date(event.props.date);
+    return  eventDate >= yesterday;
+  });
+
+
+  // Sort by date
   events.sort((i1, i2) => {
 
     let datei1 = new Date(i1.props.date);
@@ -32,21 +42,21 @@ export default function Events() {
   const beachAcres = "images/beechAcresPark/Amphitheater.png";
 
   const events = [
-    <Event
-      name="Rooster Ridge in the Park"
-      date="06/18/2020"
-      time="7:00pm"
-      address="6915 Beechmont Ave. and 6910 Salem Road."
-      caption="Join Rooster Ridge at Beech Acres Park for great music and fun!"
-      img_url={beachAcres}
-    />,
-    <Event
-      name="Cappy's Wine and Spirits"
-      date="05/16/2020"
-      time="8:00pm"
-      address="309 W. Loveland Ave, Loveland, OH 45140"
-      img_url={cappys1}
-    />,
+    // <Event
+    //   name="Rooster Ridge in the Park"
+    //   date="06/18/2020"
+    //   time="7:00pm"
+    //   address="6915 Beechmont Ave. and 6910 Salem Road."
+    //   caption="Join Rooster Ridge at Beech Acres Park for great music and fun!"
+    //   img_url={beachAcres}
+    // />,
+    // <Event
+    //   name="Cappy's Wine and Spirits"
+    //   date="05/16/2020"
+    //   time="8:00pm"
+    //   address="309 W. Loveland Ave, Loveland, OH 45140"
+    //   img_url={cappys1}
+    // />,
     <Event
     name="Bockfest with Arnold's Bar and Grill"
     date="2/29/2020"
