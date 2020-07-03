@@ -2,33 +2,28 @@ import React from "react";
 import Event from "./Event";
 
 function sortEvents(events) {
-
   //Remove old events (only keep shows yesterday or in the future)
   const yesterday = new Date(new Date());
   yesterday.setDate(yesterday.getDate() - 2);
-  events = events.filter(event => {
+  events = events.filter((event) => {
     let eventDate = new Date(event.props.date);
-    return  eventDate >= yesterday;
+    return eventDate >= yesterday;
   });
-
 
   // Sort by date
   events.sort((i1, i2) => {
-
     let datei1 = new Date(i1.props.date);
     let datei2 = new Date(i2.props.date);
 
     if (datei1 < datei2) return -1;
     if (datei1 > datei2) return 1;
     return 0;
+  });
 
-  })
-  
   return events;
 }
 
 export default function Events() {
-
   const cappys1 = "images/cappys/cappys1.jpg";
   const cappys2 = "images/cappys/cappys2.jpg";
   const cappys3 = "images/cappys/cappys3.jpg";
@@ -58,12 +53,12 @@ export default function Events() {
     //   img_url={cappys1}
     // />,
     <Event
-    name="Bockfest with Arnold's Bar and Grill"
-    date="2/29/2020"
-    time="9:00pm to 12:30pm"
-    address="210 E 8th St, Cincinnati, OH 45202"
-    img_url={arnolds}
-  />,
+      name="Bockfest with Arnold's Bar and Grill"
+      date="2/29/2020"
+      time="9:00pm to 12:30pm"
+      address="210 E 8th St, Cincinnati, OH 45202"
+      img_url={arnolds}
+    />,
     <Event
       name="Rooster Ridge in Loveland"
       date="06/28/2020"
@@ -72,7 +67,7 @@ export default function Events() {
       img_url={downtown}
     />,
     <Event
-      name="Independence Day with Cappy's Wine and Spirits"
+      name="*(Cancelled due to COVID)* Independence Day with Cappy's Wine and Spirits"
       date="07/04/2020"
       time="8:00pm"
       address="309 W. Loveland Ave, Loveland, OH 45140"
@@ -112,16 +107,17 @@ export default function Events() {
       time="8:00pm"
       address="309 W. Loveland Ave, Loveland, OH 45140"
       img_url={cappys2}
-    />
+    />,
   ];
 
   return (
     <div>
       <h1>Upcoming Events</h1>
       <div className="row">
-        {sortEvents(events).map(event => <React.Fragment key={event.props.date}>{event}</React.Fragment>)}
+        {sortEvents(events).map((event) => (
+          <React.Fragment key={event.props.date}>{event}</React.Fragment>
+        ))}
       </div>
     </div>
   );
 }
-
