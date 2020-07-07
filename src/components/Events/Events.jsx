@@ -33,6 +33,7 @@ export default function Events() {
   const arnolds = "images/arnolds/arnolds_us.jpg";
 
   const downtown = "images/downtown/RailRoadAve.jpg";
+  const downtown2 = "images/downtown/RR_Nisbet1.jpg";
 
   const beachAcres = "images/beechAcresPark/Amphitheater.png";
 
@@ -79,6 +80,13 @@ export default function Events() {
       time="8:00pm"
       address="309 W. Loveland Ave, Loveland, OH 45140"
       img_url={cappys3}
+    />,
+    <Event
+      name="Rooster Ridge at Nisbet Park"
+      date="09/13/2020"
+      time="6:00pm"
+      address="126 Karl Brown Way, Loveland, OH 45140"
+      img_url={downtown2}
     />,
     <Event
       name="Cappy's Wine and Spirits"
