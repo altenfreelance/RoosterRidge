@@ -37,6 +37,8 @@ export default function Events() {
 
   const beachAcres = "images/beechAcresPark/Amphitheater.png";
 
+  const bq = "images/bishops/BQ.jpg";
+
   const events = [
     // <Event
     //   name="Rooster Ridge in the Park"
@@ -89,28 +91,36 @@ export default function Events() {
       img_url={downtown2}
     />,
     <Event
-      name="Cappy's Wine and Spirits"
+      name="(Tentative) Cappy's Wine and Spirits"
       date="09/26/2020"
       time="8:00pm"
       address="309 W. Loveland Ave, Loveland, OH 45140"
       img_url={cappys2}
     />,
     <Event
-      name="Cappy's Wine and Spirits"
+      name="(Tentative) Cappy's Wine and Spirits"
       date="10/24/2020"
       time="8:00pm"
       address="309 W. Loveland Ave, Loveland, OH 45140"
       img_url={cappys5}
     />,
     <Event
-      name="Thanksgiving Eve with Cappy's Wine and Spirits"
+      name="Bishop's Quarter"
+      date="10/03/2020"
+      time="7:00pm"
+      address="212 W Loveland Ave, Loveland, OH 45140"
+      img_url={bq}
+    />,
+
+    <Event
+      name="(Tentative) Thanksgiving Eve with Cappy's Wine and Spirits"
       date="11/25/2020"
       time="8:00pm"
       address="309 W. Loveland Ave, Loveland, OH 45140"
       img_url={cappys1}
     />,
     <Event
-      name="New Years Eve with Cappy's Wine and Spirits"
+      name="(Tentative) New Years Eve with Cappy's Wine and Spirits"
       date="12/31/2020"
       time="8:00pm"
       address="309 W. Loveland Ave, Loveland, OH 45140"
