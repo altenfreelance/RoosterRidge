@@ -2,13 +2,26 @@
   {
     "meta": {
       "title": "Rooster Ridge in the Park",
-      "gigDateTime": "2021-06-24 19:00:00 -0400",
+      "gigDateTime": "2021-06-24T23:00:00.000Z",
       "address": "6915 Beechmont Ave. and 6910 Salem Road.",
-      "caption": "Join Rooster Ridge at Beech Acres Park for great music and fun!",
       "thumbnail": "/images/uploads/Amphitheater.png",
+      "caption": "Join Rooster Ridge at Beech Acres Park for great music and fun!",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/beachAcres.md",
-      "mtime": "2021-04-10T14:54:43.461Z",
+      "mtime": "2021-04-10T17:26:53.941Z",
       "birthtime": "2021-04-10T13:28:43.748Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Rooster Ridge At Cappy's",
+      "gigDateTime": "2021-08-14T23:00:50.992Z",
+      "address": "309 W Loveland Ave, Loveland, OH 45140",
+      "thumbnail": "/images/uploads/cappys6.jpg",
+      "caption": "Catch us back at Cappy's for awesome music and high energy.",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/rooster-ridge-at-cappys.md",
+      "mtime": "2021-04-10T17:26:53.942Z",
+      "birthtime": "2021-04-10T17:26:53.941Z"
     },
     "html": ""
   }
