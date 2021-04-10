@@ -69,7 +69,7 @@ body {
 }
 
 p {
-  color:black;
+  color:white;
 }
 
 .logo-circle {
@@ -82,11 +82,16 @@ p {
   padding: 2em 0px;
 }
 
-.card a, .link {
-  color:blue;
+a, .link {
+  color: lightskyblue;
+  font-weight: bold;
 }
-.card a:hover, .link:hover {
-  color:gray;
+a:hover, .link:hover {
+  color:white;
+  text-decoration: underline;
+}
+footer a {
+  color: white;
 }
 
 .card {

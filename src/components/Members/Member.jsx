@@ -6,7 +6,7 @@ export default class Member extends Component {
     let { name, instrument, img_url } = this.props;
     return (
       <div className="col-sm-4 p-3">
-        <div className="card">
+        <div className="">
           <div className="container">
             <h4>
               <b>{name}</b>

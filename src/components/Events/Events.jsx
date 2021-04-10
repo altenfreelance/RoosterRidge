@@ -40,14 +40,14 @@ export default function Events() {
   const bq = "images/bishops/BQ.jpg";
 
   const events = [
-    // <Event
-    //   name="Rooster Ridge in the Park"
-    //   date="06/18/2020"
-    //   time="7:00pm"
-    //   address="6915 Beechmont Ave. and 6910 Salem Road."
-    //   caption="Join Rooster Ridge at Beech Acres Park for great music and fun!"
-    //   img_url={beachAcres}
-    // />,
+    <Event
+      name="Rooster Ridge in the Park"
+      date="06/24/2021"
+      time="7:00pm"
+      address="6915 Beechmont Ave. and 6910 Salem Road."
+      caption="Join Rooster Ridge at Beech Acres Park for great music and fun!"
+      img_url={beachAcres}
+    />,
     // <Event
     //   name="Cappy's Wine and Spirits"
     //   date="05/16/2020"
@@ -128,13 +128,16 @@ export default function Events() {
     />,
   ];
 
+  const sortedEvents = sortEvents(events);
+
   return (
     <div>
       <h1>Upcoming Events</h1>
       <div className="row">
-        {sortEvents(events).map((event) => (
+        {sortedEvents.map((event) => (
           <React.Fragment key={event.props.date}>{event}</React.Fragment>
         ))}
+        {sortedEvents.length === 0 && <p style={{color: "white", margin: "auto"}}>We don't have any public shows on the books for now. Please see our <a href="/contact">contact</a> page if you are interested in booking Rooster Ridge.</p>}
       </div>
     </div>
   );
