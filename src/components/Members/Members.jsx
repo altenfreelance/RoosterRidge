@@ -21,7 +21,7 @@ function Members(){
                     <Member name="Greg Stevens" instrument="Banjo and Guitar" img_url={greg_img}/>
                     <Member name="Joey Oberholzer" instrument="Vocals" img_url={joey_img}/>
                     <Member name="Vince Stevens" instrument="Dobro" img_url={vince_img}/>
-                    <Member name="Jamie" instrument="Bass" img_url={jamie_img}/>
+                    <Member name="Jamie Davidson" instrument="Bass" img_url={jamie_img}/>
                     <Member name="Dave Bauer" instrument="Sound" img_url={bauer_img}/>
                 </div>
             </div>
