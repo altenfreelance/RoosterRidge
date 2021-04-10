@@ -25,14 +25,12 @@ function sortEvents(events) {
 }
 
 export default function Events() {
-  console.log(data)
 
   const events = data.map((eventBlob) => {
 
     const dateTime = new Date(eventBlob.meta.gigDateTime)
 
     const date = `${dateTime.getMonth() + 1}/${dateTime.getDate()}/${dateTime.getFullYear()}`
-    console.log(dateTime)
 
     const time = dateTime.toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'})//
     // .replace(/(:\d{2}| [AP]M)$/, "");
