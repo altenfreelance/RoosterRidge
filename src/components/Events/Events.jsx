@@ -62,7 +62,7 @@ export default function Events() {
         {sortedEvents.map((event) => (
           <React.Fragment key={event.props.date}>{event}</React.Fragment>
         ))}
-        {sortedEvents.length === 0 && <p style={{color: "white", margin: "auto"}}>We don't have any public shows on the books for now. Please see our <a href="/contact">contact</a> page if you are interested in booking Rooster Ridge.</p>}
+        {sortedEvents.length === 0 && <p className="container-fluid" style={{color: "white", margin: "auto"}}>We don't have any public shows on the books for now. Please see our <a href="/contact">contact</a> page if you are interested in booking Rooster Ridge.</p>}
       </div>
     </div>
   );
