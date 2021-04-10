@@ -6,7 +6,7 @@ export default class Contact extends Component {
       <div>
         <h1>Contact</h1>
 
-        <div className="card py-4 px-5">
+        <div className="py-4 px-5">
           <h4>Want to Schedule an Event?</h4>
           <p>
             If you want to schedule Rooster Ridge or if you have any questions, please reach out to us
@@ -21,7 +21,7 @@ export default class Contact extends Component {
               roosterridgeofficial@gmail.com{" "}
             </a>
             or give us a call or text at{" "}
-            <a href="tel:15138333889"> 513-833-3889</a>.
+            <a href="tel:15136000799"> 513-600-0799</a>.
           </p>
         </div>
       </div>
