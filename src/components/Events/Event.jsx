@@ -24,7 +24,6 @@ export default class Event extends Component {
               <img
                 src={img_url}
                 alt={name}
-                className="border border-dark"
                 style={{ width: "100%"}}
                 caption=""
                 />
