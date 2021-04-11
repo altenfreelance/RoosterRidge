@@ -33,7 +33,6 @@ export default function Events() {
     const date = `${dateTime.getMonth() + 1}/${dateTime.getDate()}/${dateTime.getFullYear()}`
 
     const time = dateTime.toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'})//
-    // .replace(/(:\d{2}| [AP]M)$/, "");
 
     const zone = dateTime.toLocaleTimeString('en-us',{timeZoneName:'short'}).split(' ')[2]
 

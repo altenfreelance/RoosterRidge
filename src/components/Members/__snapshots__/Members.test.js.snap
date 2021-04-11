@@ -13,7 +13,7 @@ exports[`renders (matches snapshot)  1`] = `
         class="col-sm-4 p-3"
       >
         <div
-          class="card"
+          class=""
         >
           <div
             class="container"
@@ -39,7 +39,7 @@ exports[`renders (matches snapshot)  1`] = `
         class="col-sm-4 p-3"
       >
         <div
-          class="card"
+          class=""
         >
           <div
             class="container"
@@ -65,7 +65,7 @@ exports[`renders (matches snapshot)  1`] = `
         class="col-sm-4 p-3"
       >
         <div
-          class="card"
+          class=""
         >
           <div
             class="container"
@@ -91,7 +91,7 @@ exports[`renders (matches snapshot)  1`] = `
         class="col-sm-4 p-3"
       >
         <div
-          class="card"
+          class=""
         >
           <div
             class="container"
@@ -117,7 +117,7 @@ exports[`renders (matches snapshot)  1`] = `
         class="col-sm-4 p-3"
       >
         <div
-          class="card"
+          class=""
         >
           <div
             class="container"
@@ -143,7 +143,7 @@ exports[`renders (matches snapshot)  1`] = `
         class="col-sm-4 p-3"
       >
         <div
-          class="card"
+          class=""
         >
           <div
             class="container"
@@ -169,14 +169,14 @@ exports[`renders (matches snapshot)  1`] = `
         class="col-sm-4 p-3"
       >
         <div
-          class="card"
+          class=""
         >
           <div
             class="container"
           >
             <h4>
               <b>
-                Dave Blumberg
+                Jamie Davidson
               </b>
             </h4>
             <p>
@@ -184,9 +184,9 @@ exports[`renders (matches snapshot)  1`] = `
             </p>
           </div>
           <img
-            alt="Dave Blumberg"
+            alt="Jamie Davidson"
             class="rounded-circle"
-            src="images/members/Dave.jpg"
+            src="images/members/Jamie.jpg"
             style="width: 100%;"
           />
         </div>
@@ -195,7 +195,7 @@ exports[`renders (matches snapshot)  1`] = `
         class="col-sm-4 p-3"
       >
         <div
-          class="card"
+          class=""
         >
           <div
             class="container"

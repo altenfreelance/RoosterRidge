@@ -8,7 +8,6 @@ exports[`renders (matches snapshot)  1`] = `
     </h1>
     <div
       class="my-2 mx-4 p-4"
-      style="background-color: rgba(128, 0, 0, 0.8); border-radius: 30px;"
     >
       <h4>
         Blood In the Soil (12/20/19)
@@ -21,7 +20,6 @@ exports[`renders (matches snapshot)  1`] = `
     </div>
     <div
       class="my-2 mx-4 p-4"
-      style="background-color: rgba(128, 0, 0, 0.8); border-radius: 30px;"
     >
       <h4>
         Fools Gold (12/31/19)
@@ -34,7 +32,6 @@ exports[`renders (matches snapshot)  1`] = `
     </div>
     <div
       class="my-2 mx-4 p-4"
-      style="background-color: rgba(128, 0, 0, 0.8); border-radius: 30px;"
     >
       <h4>
         Crawford County Critter Line (12/31/19)
@@ -47,7 +44,6 @@ exports[`renders (matches snapshot)  1`] = `
     </div>
     <div
       class="my-2 mx-4 p-4"
-      style="background-color: rgba(128, 0, 0, 0.8); border-radius: 30px;"
     >
       <h4>
         Atlantic City (12/31/19)
@@ -60,7 +56,6 @@ exports[`renders (matches snapshot)  1`] = `
     </div>
     <div
       class="my-2 mx-4 p-4"
-      style="background-color: rgba(128, 0, 0, 0.8); border-radius: 30px;"
     >
       <h4>
         Cocaine Habit (12/31/19)

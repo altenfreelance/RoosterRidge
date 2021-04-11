@@ -7,7 +7,7 @@ exports[`renders (matches snapshot)  1`] = `
       Contact
     </h1>
     <div
-      class="card py-4 px-5"
+      class="py-4 px-5"
     >
       <h4>
         Want to Schedule an Event?
@@ -27,9 +27,9 @@ exports[`renders (matches snapshot)  1`] = `
         </a>
         or give us a call or text at 
         <a
-          href="tel:15138333889"
+          href="tel:15136000799"
         >
-           513-833-3889
+           513-600-0799
         </a>
         .
       </p>
