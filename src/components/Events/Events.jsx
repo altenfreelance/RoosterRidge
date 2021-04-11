@@ -32,7 +32,8 @@ export default function Events() {
 
     const date = `${dateTime.getMonth() + 1}/${dateTime.getDate()}/${dateTime.getFullYear()}`
 
-    const time = dateTime.toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'})//
+    console.log(dateTime)
+    const time = dateTime.toLocaleTimeString('en-US', {hour: '2-digit', minute:'2-digit', hour12: true});
 
     const zone = dateTime.toLocaleTimeString('en-us',{timeZoneName:'short'}).split(' ')[2]
 
