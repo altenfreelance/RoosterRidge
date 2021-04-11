@@ -5,9 +5,7 @@ exports[`renders (matches snapshot)  1`] = `
   <div
     class="col-sm-6 p-3"
   >
-    <div
-      class="card"
-    >
+    <div>
       <div
         class="container"
       >
@@ -16,9 +14,7 @@ exports[`renders (matches snapshot)  1`] = `
             Rooster Ridge in the Park
           </b>
         </h4>
-        <div
-          style="color: black;"
-        >
+        <div>
           <h5>
             Thu Jun 18 2020
           </h5>
@@ -32,15 +28,12 @@ exports[`renders (matches snapshot)  1`] = `
           6915 Beechmont Ave. and 6910 Salem Road.
         </p>
         <figure>
-          <figcaption
-            class="figure-caption"
-          >
+          <figcaption>
             Join Rooster Ridge at Beech Acres Park for great music and fun!
           </figcaption>
           <img
             alt="Rooster Ridge in the Park"
             caption=""
-            class="border border-dark"
             src="images/cappys/cappys1.jpg"
             style="width: 100%;"
           />
