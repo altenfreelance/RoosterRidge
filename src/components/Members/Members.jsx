@@ -15,13 +15,13 @@ function Members(){
             <div>
                 <h1>Meet the Band</h1>
                 <div className="row">
-                    <Member name="Andrew Alten" instrument="Mandolin" img_url={andrew_img}/>
-                    <Member name="Jacob Alten" instrument="Vocal and Guitar" img_url={jacob_img}/>
-                    <Member name="Bryce Clawson" instrument="Vocals and Harmonica " img_url={bryce_img}/>
-                    <Member name="Greg Stevens" instrument="Banjo and Guitar" img_url={greg_img}/>
-                    <Member name="Joey Oberholzer" instrument="Vocals" img_url={joey_img}/>
+                    <Member name="Andrew Alten" instrument="Mandolin, Guitar" img_url={andrew_img}/>
+                    <Member name="Jacob Alten" instrument="Vocal, Guitar, Percussion" img_url={jacob_img}/>
+                    <Member name="Bryce Clawson" instrument="Vocals, Harmonica " img_url={bryce_img}/>
+                    <Member name="Greg Stevens" instrument="Banjo, Guitar, Violin" img_url={greg_img}/>
+                    <Member name="Joey Oberholzer" instrument="Vocals, Percussion" img_url={joey_img}/>
                     <Member name="Vince Stevens" instrument="Dobro" img_url={vince_img}/>
-                    <Member name="Jamie Davidson" instrument="Bass" img_url={jamie_img}/>
+                    <Member name="Jamie Davidson" instrument="Bass, Vocals" img_url={jamie_img}/>
                     <Member name="Dave Bauer" instrument="Sound" img_url={bauer_img}/>
                 </div>
             </div>

@@ -6,7 +6,7 @@ export default class NavHeader extends Component {
     return (
       <header className="sticky-top masthead rounded px-3 py-2">
         <div className="inner">
-          <h3 style={{fontFamily: 'serif', textTransform: 'title'}} className="masthead-brand">Rooster Ridge</h3>
+          {/* <h3 style={{fontFamily: 'serif', textTransform: 'title'}} className="masthead-brand">Rooster Ridge</h3> */}
           <nav className="nav nav-masthead justify-content-center">
             <NavLink to="/home" activeClassName="active" replace>
               Home
