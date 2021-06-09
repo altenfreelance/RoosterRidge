@@ -16,30 +16,30 @@ function Songs() {
 
 const playlist = [
     {
-        url: 'audio/BloodInTheSoil.mp3',
-        title: 'Blood In the Soil (12/20/19)',
+        url: 'audio/RailsTrailsAles2021/Blood in the Soil.mp3',
+        title: 'Blood in the Soil (06/05/21)',
     },
     {
-        url: 'audio/FoolsGold.mp3',
-        title: 'Fools Gold (12/31/19)',
+        url: 'audio/RailsTrailsAles2021/Crawford County.mp3',
+        title: 'Crawford County Critter Line (06/05/21)',
     },
     {
-        url: 'audio/CCCL.mp3',
-        title: 'Crawford County Critter Line (12/31/19)',
+        url: 'audio/RailsTrailsAles2021/Honest Man.mp3',
+        title: 'Honest Man (06/05/21)',
     },
     {
-        url: 'audio/AtlanticCity.mp3',
-        title: 'Atlantic City (12/31/19)',
+        url: 'audio/RailsTrailsAles2021/Mama Don\'t Like.mp3',
+        title: 'Mama Don\'t Allow (06/05/21)',
     },
     {
-        url: 'audio/CocaineHabit.mp3',
-        title: 'Cocaine Habit (12/31/19)',
-    }
-    // ,
-    // {
-    //     url: 'audio/BloodInTheSoil.mp3',
-    //     title: '2 In the Soil',
-    // }
+        url: 'audio/RailsTrailsAles2021/Summertime Kid.mp3',
+        title: 'Summertime Kid (06/05/21)',
+    },
+    {
+        url: 'audio/RailsTrailsAles2021/Tell it to Me.mp3',
+        title: 'Tell it to Me (06/05/21)',
+    },
+    
 ]
 
 export default Songs
