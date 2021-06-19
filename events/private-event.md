@@ -1,5 +1,5 @@
 ---
-title: Rooster Ridge at Cappys
+title: Rooster Ridge with Briscoes and Gravy at Cappy's
 gigDateTime: 2021-06-19T23:00:00.000Z
 address: 309 W Loveland Ave, Loveland, OH 45140
 caption: We are playing a pop up show today at Cappy's! If you don't have plans
