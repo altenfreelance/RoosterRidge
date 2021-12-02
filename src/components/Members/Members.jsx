@@ -13,7 +13,7 @@ function Members(){
             <div>
                 <h1>Meet the Band</h1>
                 <div className="row">
-                    <Member name="Andrew Alten" instrument="Mandolin, Guitar" img_url={andrew_img}/>
+                    <Member name="Andrew Alten" instrument="Mandolin, Guitar, Dobro" img_url={andrew_img}/>
                     <Member name="Jacob Alten" instrument="Vocal, Guitar, Percussion" img_url={jacob_img}/>
                     <Member name="Bryce Clawson" instrument="Vocals, Harmonica " img_url={bryce_img}/>
                     <Member name="Greg Stevens" instrument="Banjo, Guitar, Violin" img_url={greg_img}/>
