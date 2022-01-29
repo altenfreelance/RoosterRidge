@@ -3,7 +3,11 @@ import React from 'react';
 function Songs() {
     return (
         <div>
-            <h1>Audio</h1>
+            <h1>New Music Coming Soon!</h1>
+            <p>We are releasing an album late spring of 2022. Stay up to date with us on <a href="https://www.facebook.com/RoosterRidgeOfficial/"> Facebook </a> for updates and promotions!</p>
+            <br/>
+            <hr/>
+            <h1>2021 Live Recordings</h1>
             {playlist.map((song) => {return (
             <div key={song.title} className="my-2 mx-4 p-4">
                 <h4 style={{ color: '' }}>{song.title}</h4>
