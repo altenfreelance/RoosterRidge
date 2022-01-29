@@ -1,52 +1,85 @@
 [
   {
     "meta": {
-      "title": "Rooster Ridge in Beech Acres Park",
-      "gigDateTime": "2021-06-24T23:00:00.000Z",
-      "address": "6915 Beechmont Ave. and 6910 Salem Road.",
-      "caption": "Join us for some week night music at Beech Acres Park to wrap up your week the right way!",
-      "thumbnail": "/images/uploads/Amphitheater.png",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/beachAcres.md",
-      "mtime": "2021-04-24T05:14:46.506Z",
-      "birthtime": "2021-04-10T13:28:43.748Z"
+      "title": "Arnold's Bar and Gril",
+      "gigDateTime": "2022-05-01T00:30:49.487Z",
+      "address": "210 E 8th St, Cincinnati, OH 45202",
+      "thumbnail": "/images/uploads/arnoldslogo.jfif",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-gril.md",
+      "mtime": "2021-12-02T17:53:54.896Z",
+      "birthtime": "2021-12-02T17:53:54.896Z"
     },
     "html": ""
   },
   {
     "meta": {
-      "title": "Private Event",
-      "gigDateTime": "2021-06-20T01:00:00.000Z",
-      "caption": "If you want to book a private event with us, please see our contact page!",
+      "title": "Arnold's Bar and Grill",
+      "gigDateTime": "2022-06-26T00:30:21.251Z",
+      "address": "210 E 8th St, Cincinnati, OH 45202",
+      "thumbnail": "/images/uploads/arnolds.jfif",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill-1.md",
+      "mtime": "2021-12-02T17:53:54.896Z",
+      "birthtime": "2021-12-02T17:53:54.896Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Arnold's Bar and Grill",
+      "gigDateTime": "2022-08-28T00:30:10.904Z",
+      "address": "210 E 8th St, Cincinnati, OH 45202",
+      "thumbnail": "/images/uploads/arnoldsgreatmusic.jfif",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill-2.md",
+      "mtime": "2021-12-02T17:53:54.897Z",
+      "birthtime": "2021-12-02T17:53:54.897Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Arnold's Bar and Grill",
+      "gigDateTime": "2022-10-30T00:30:00.000Z",
+      "address": "210 E 8th St, Cincinnati, OH 45202",
+      "thumbnail": "/images/uploads/arnolds.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill-3.md",
+      "mtime": "2021-12-02T17:53:54.897Z",
+      "birthtime": "2021-12-02T17:53:54.897Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Arnold's Bar and Grill",
+      "gigDateTime": "2022-12-17T17:47:01.379Z",
+      "address": "210 E 8th St, Cincinnati, OH 45202",
       "thumbnail": "/images/uploads/cappys6.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/private-event.md",
-      "mtime": "2021-04-24T05:14:46.507Z",
-      "birthtime": "2021-04-11T23:19:10.839Z"
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill-4.md",
+      "mtime": "2021-12-02T17:53:54.897Z",
+      "birthtime": "2021-12-02T17:53:54.897Z"
     },
     "html": ""
   },
   {
     "meta": {
-      "title": "Rails, Trails, and Ales",
-      "gigDateTime": "2021-06-05T23:00:05.694Z",
-      "address": "201 W Loveland Ave",
-      "caption": "Join us for our first show of the summer in Downtown Loveland!",
-      "thumbnail": "/images/uploads/RailRoadAve.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/rails-trails-and-ales.md",
-      "mtime": "2021-05-26T13:17:56.739Z",
-      "birthtime": "2021-05-26T13:17:56.739Z"
+      "title": "Arnold's Bar and Grill",
+      "gigDateTime": "2021-12-19T01:30:00.000Z",
+      "address": "210 E 8th St, Cincinnati, OH 45202",
+      "thumbnail": "/images/uploads/arnolds_us.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill.md",
+      "mtime": "2021-12-02T17:53:54.897Z",
+      "birthtime": "2021-12-02T17:53:54.897Z"
     },
     "html": ""
   },
   {
     "meta": {
-      "title": "Rooster Ridge At Cappy's",
-      "gigDateTime": "2021-08-14T23:00:50.992Z",
-      "address": "309 W Loveland Ave, Loveland, OH 45140",
-      "caption": "Catch us back at Cappy's for awesome music and high energy.",
-      "thumbnail": "/images/uploads/cappys5.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/rooster-ridge-at-cappys.md",
-      "mtime": "2021-04-11T23:19:10.840Z",
-      "birthtime": "2021-04-10T17:26:53.941Z"
+      "title": "New Year's Eve at Cappy's",
+      "gigDateTime": "2022-01-01T00:00:24.911Z",
+      "address": "309 West Loveland Ave Loveland OH 45140",
+      "thumbnail": "/images/uploads/cappys4.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/rooster-ridge-at-cappys-3.md",
+      "mtime": "2021-12-02T17:53:54.897Z",
+      "birthtime": "2021-12-02T17:53:54.897Z"
     },
     "html": ""
   }
