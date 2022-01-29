@@ -12,9 +12,8 @@ export default function Bio() {
                     and lyrics as frank and honest as the countryside to offer a distinctive new sound that still holds firm to its roots.
                 </p>
                 <p>
-                    Rooster Ridge was founded in Loveland, Ohio by the Alten Brothers, Jake and Andrew, and the father-son team of Greg and Vince Stevens.
-                    Rounding out the group are close friends and lead vocalists Joey Oberholzer and Bryce Clawson, all anchored by Jamie Davidson’s
-                    foundational bass lines.
+                    Rooster Ridge was founded in Loveland, Ohio by the Alten Brothers, Jake and Andrew, and Greg Stevens.
+                    Rounding out the group are long time friends Bryce Clawson on vocals and harmonica and Jamie Davidson on vocals and bass.
                 </p>
                 <p>
                     Starting out quite literally as a late-night, back-porch jam session, Rooster Ridge has begun to catch fire, drawing ever larger
