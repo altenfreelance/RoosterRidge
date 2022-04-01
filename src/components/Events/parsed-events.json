@@ -1,6 +1,19 @@
 [
   {
     "meta": {
+      "title": "A Fair of the Arts",
+      "gigDateTime": "2022-09-17T21:15:06.329Z",
+      "address": "6915 Beechmont Avenue, Cincinnati, OH 45230",
+      "caption": "Beech Acres Park Amphitheatre",
+      "thumbnail": "/images/uploads/Amphitheater.png",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/a-fair-of-the-arts.md",
+      "mtime": "2022-04-01T00:23:22.416Z",
+      "birthtime": "2022-04-01T00:23:22.415Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
       "title": "Arnold's Bar and Gril",
       "gigDateTime": "2022-05-01T00:30:49.487Z",
       "address": "210 E 8th St, Cincinnati, OH 45202",
@@ -68,6 +81,19 @@
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill.md",
       "mtime": "2022-01-29T13:49:14.221Z",
       "birthtime": "2021-12-02T17:53:54.897Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Clear Mountain Food Park",
+      "gigDateTime": "2022-09-10T22:30:55.811Z",
+      "address": "2792 Old State Route 32 Batavia, Ohio 45103",
+      "caption": "www.ClearMountainFoodPark.com",
+      "thumbnail": "/images/uploads/unnamed.png",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/clear-mountain-food-park.md",
+      "mtime": "2022-04-01T00:23:22.417Z",
+      "birthtime": "2022-04-01T00:23:22.416Z"
     },
     "html": ""
   },
