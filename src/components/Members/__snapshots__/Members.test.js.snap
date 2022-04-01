@@ -24,7 +24,7 @@ exports[`renders (matches snapshot)  1`] = `
               </b>
             </h4>
             <p>
-              Mandolin
+              Mandolin, Guitar, Dobro
             </p>
           </div>
           <img
@@ -50,7 +50,7 @@ exports[`renders (matches snapshot)  1`] = `
               </b>
             </h4>
             <p>
-              Vocal and Guitar
+              Vocal, Guitar, Percussion
             </p>
           </div>
           <img
@@ -76,7 +76,7 @@ exports[`renders (matches snapshot)  1`] = `
               </b>
             </h4>
             <p>
-              Vocals and Harmonica 
+              Vocals, Harmonica 
             </p>
           </div>
           <img
@@ -102,7 +102,7 @@ exports[`renders (matches snapshot)  1`] = `
               </b>
             </h4>
             <p>
-              Banjo and Guitar
+              Banjo, Guitar, Violin
             </p>
           </div>
           <img
@@ -124,63 +124,11 @@ exports[`renders (matches snapshot)  1`] = `
           >
             <h4>
               <b>
-                Joey Oberholzer
-              </b>
-            </h4>
-            <p>
-              Vocals
-            </p>
-          </div>
-          <img
-            alt="Joey Oberholzer"
-            class="rounded-circle"
-            src="images/members/Joey.jpg"
-            style="width: 100%;"
-          />
-        </div>
-      </div>
-      <div
-        class="col-sm-4 p-3"
-      >
-        <div
-          class=""
-        >
-          <div
-            class="container"
-          >
-            <h4>
-              <b>
-                Vince Stevens
-              </b>
-            </h4>
-            <p>
-              Dobro
-            </p>
-          </div>
-          <img
-            alt="Vince Stevens"
-            class="rounded-circle"
-            src="images/members/Vince.jpg"
-            style="width: 100%;"
-          />
-        </div>
-      </div>
-      <div
-        class="col-sm-4 p-3"
-      >
-        <div
-          class=""
-        >
-          <div
-            class="container"
-          >
-            <h4>
-              <b>
                 Jamie Davidson
               </b>
             </h4>
             <p>
-              Bass
+              Bass, Vocals
             </p>
           </div>
           <img
