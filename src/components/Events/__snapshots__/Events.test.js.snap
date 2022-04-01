@@ -18,28 +18,178 @@ exports[`renders (matches snapshot)  1`] = `
           >
             <h4>
               <b>
-                Rooster Ridge in the Park
+                Arnold's Bar and Gril
               </b>
             </h4>
             <div>
               <h5>
-                Thu Jun 24 2021
+                Sat Apr 30 2022
               </h5>
               <h5>
-                07:00 PM EDT
+                08:30 PM EDT
               </h5>
             </div>
             <p
               class="link"
             >
-              6915 Beechmont Ave. and 6910 Salem Road.
+              210 E 8th St, Cincinnati, OH 45202
+            </p>
+            <figure>
+              <figcaption />
+              <img
+                alt="Arnold's Bar and Gril"
+                caption=""
+                src="/images/uploads/arnoldslogo.jfif"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Arnold's Bar and Grill
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Jun 25 2022
+              </h5>
+              <h5>
+                08:30 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              210 E 8th St, Cincinnati, OH 45202
+            </p>
+            <figure>
+              <figcaption />
+              <img
+                alt="Arnold's Bar and Grill"
+                caption=""
+                src="/images/uploads/arnolds.jfif"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Arnold's Bar and Grill
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Aug 27 2022
+              </h5>
+              <h5>
+                08:30 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              210 E 8th St, Cincinnati, OH 45202
+            </p>
+            <figure>
+              <figcaption />
+              <img
+                alt="Arnold's Bar and Grill"
+                caption=""
+                src="/images/uploads/arnoldsgreatmusic.jfif"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Clear Mountain Food Park
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Sep 10 2022
+              </h5>
+              <h5>
+                06:30 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              2792 Old State Route 32 Batavia, Ohio 45103
             </p>
             <figure>
               <figcaption>
-                Join Rooster Ridge at Beech Acres Park for great music and fun!
+                www.ClearMountainFoodPark.com
               </figcaption>
               <img
-                alt="Rooster Ridge in the Park"
+                alt="Clear Mountain Food Park"
+                caption=""
+                src="/images/uploads/unnamed.png"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                A Fair of the Arts
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Sep 17 2022
+              </h5>
+              <h5>
+                05:15 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              6915 Beechmont Avenue, Cincinnati, OH 45230
+            </p>
+            <figure>
+              <figcaption>
+                Beech Acres Park Amphitheatre
+              </figcaption>
+              <img
+                alt="A Fair of the Arts"
                 caption=""
                 src="/images/uploads/Amphitheater.png"
                 style="width: 100%;"
@@ -57,28 +207,63 @@ exports[`renders (matches snapshot)  1`] = `
           >
             <h4>
               <b>
-                Rooster Ridge At Cappy's
+                Arnold's Bar and Grill
               </b>
             </h4>
             <div>
               <h5>
-                Sat Aug 14 2021
+                Sat Oct 29 2022
               </h5>
               <h5>
-                07:00 PM EDT
+                08:30 PM EDT
               </h5>
             </div>
             <p
               class="link"
             >
-              309 W Loveland Ave, Loveland, OH 45140
+              210 E 8th St, Cincinnati, OH 45202
             </p>
             <figure>
-              <figcaption>
-                Catch us back at Cappy's for awesome music and high energy.
-              </figcaption>
+              <figcaption />
               <img
-                alt="Rooster Ridge At Cappy's"
+                alt="Arnold's Bar and Grill"
+                caption=""
+                src="/images/uploads/arnolds.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Arnold's Bar and Grill
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Dec 17 2022
+              </h5>
+              <h5>
+                08:30 PM EST
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              210 E 8th St, Cincinnati, OH 45202
+            </p>
+            <figure>
+              <figcaption />
+              <img
+                alt="Arnold's Bar and Grill"
                 caption=""
                 src="/images/uploads/cappys6.jpg"
                 style="width: 100%;"

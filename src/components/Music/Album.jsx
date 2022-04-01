@@ -23,7 +23,7 @@ export default function Album({ title, abouts, songs }) {
                     />
                 </a>
                 <a
-                    href="#"
+                    href="https://roosterridge.bandcamp.com"
                     className="btn btn-light btn-sm m-1">
                     Band Camp
                 </a>

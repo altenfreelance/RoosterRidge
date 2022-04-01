@@ -8,12 +8,6 @@ exports[`renders (matches snapshot)  1`] = `
     <div
       class="inner"
     >
-      <h3
-        class="masthead-brand"
-        style="font-family: serif; text-transform: title;"
-      >
-        Rooster Ridge
-      </h3>
       <nav
         class="nav nav-masthead justify-content-center"
       >
