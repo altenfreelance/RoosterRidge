@@ -13,12 +13,12 @@ import {
 import Events from "./components/Events/Events";
 // import VidContainer from './VidContainer';
 import Contact from "./components/Contact/Contact";
-import Songs from "./components/Songs/Songs";
+import Music from "./components/Music/Music";
 import Bio from "./components/Home/Bio";
+import ChickenScratch from "./components/Music/Albums/ChickenScratch";
 
 function App() {
   const logo_img = 'images/RR.jpg';
-  // const desktopImage = 'images/farm.jpeg'
   return (
     <div
       style={{
@@ -55,7 +55,10 @@ function App() {
               <Contact />
             </Route>
             <Route exact path="/Music">
-              <Songs src="audio/BloodInTheSoil.mp3" />
+              <Music />
+            </Route>
+            <Route exact path="/chicken-scratch">
+              <ChickenScratch />
             </Route>
             <Route path="*">
               <Redirect to="/home" />
