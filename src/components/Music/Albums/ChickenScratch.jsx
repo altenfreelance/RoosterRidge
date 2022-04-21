@@ -58,8 +58,8 @@ export default function ChickenScratch() {
                                 "Bryce - Harmonica",
                                 "Greg - Banjo",
                                 "Andrew - Electric guitar",
-                                "Jacob - Vocals, drums",
-                                "Jamie - Vocals, bass, piano, organ",
+                                "Jacob - Drums",
+                                "Jamie - Bass, piano, organ",
                                 "Vince - Dobro",
                             ]
                     },
