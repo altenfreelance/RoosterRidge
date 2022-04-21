@@ -9,7 +9,8 @@ export default function AlbumCredits({ title, abouts, songs, AlbumCardComp }) {
         <div>
             <h1>{title}</h1>
             {AlbumCardComp}
-            <div>
+            <h3>Digital and physical listening options will be provided on June 4th. Set yourself a reminder to come back to this page and follow us on social media!</h3>
+            {/* <div>
                 <a
                     href="https://open.spotify.com/album/insertidhere"
                     className="btn btn-light btn-sm m-1">
@@ -29,7 +30,7 @@ export default function AlbumCredits({ title, abouts, songs, AlbumCardComp }) {
                     Band Camp
                 </a>
 
-            </div>
+            </div> */}
 
             <div>
                 {abouts.map((item, i) => {
