@@ -30,7 +30,7 @@ export default function ChickenScratch() {
                                 "Bryce - Lead vocals, harmonica",
                                 "Joey - Vocals",
                                 "Greg - Banjo",
-                                "Andrew - Mandolin",
+                                "Andrew - Vocals, Mandolin",
                                 "Jacob - Vocals, guitar",
                                 "Jamie - Vocals, bass",
                                 "Vince - Dobro"
@@ -54,7 +54,7 @@ export default function ChickenScratch() {
                         title: "Summertime Kid",
                         instrumentation:
                             [
-                                "Joey - Lead vocals",
+                                "Joey - Vocals",
                                 "Bryce - Harmonica",
                                 "Greg - Banjo",
                                 "Andrew - Electric guitar",
