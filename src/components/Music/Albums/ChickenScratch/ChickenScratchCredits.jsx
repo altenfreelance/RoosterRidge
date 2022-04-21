@@ -20,6 +20,7 @@ export default function ChickenScratch() {
                 title="Chicken Scratch"
                 abouts={
                     [
+                        "Release Date:  6/4/2022",
                         "Recorded at:  Technology Concierge Services",
                         "Recording and Mastering:  Dave Bauer",
                         "Produced by:  Rooster Ridge and Dave Bauer"
