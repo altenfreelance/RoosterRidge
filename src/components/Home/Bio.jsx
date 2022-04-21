@@ -5,7 +5,7 @@ export default function Bio() {
     return (
         <div>
             <Helmet>
-                <title>Roster Ridge</title>
+                <title>Rooster Ridge</title>
             </Helmet>
 
             <h1>About the Band</h1>
