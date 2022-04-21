@@ -15,10 +15,10 @@ import Events from "./components/Events/Events";
 import Contact from "./components/Contact/Contact";
 import Music from "./components/Music/Music";
 import Bio from "./components/Home/Bio";
-import ChickenScratch from "./components/Music/Albums/ChickenScratch";
+import ChickenScratchCredits from "./components/Music/Albums/ChickenScratch/ChickenScratchCredits";
 
 function App() {
-  const logo_img = 'images/RR.jpg';
+  const logo_img = '/images/RR.jpg';
   return (
     <div
       style={{
@@ -43,7 +43,7 @@ function App() {
             </Route>
             <Route exact path="/home">
               {/* <VidContainer /> */}
-              <Bio/>
+              <Bio />
             </Route>
             <Route exact path="/shows">
               <Events />
@@ -57,8 +57,8 @@ function App() {
             <Route exact path="/Music">
               <Music />
             </Route>
-            <Route exact path="/chicken-scratch">
-              <ChickenScratch />
+            <Route exact path="/music/chicken-scratch">
+              <ChickenScratchCredits />
             </Route>
             <Route path="*">
               <Redirect to="/home" />
