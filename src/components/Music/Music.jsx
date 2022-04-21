@@ -25,7 +25,7 @@ function Music() {
 }
 
 const albumCards = [
-    <ChickenScratchAlbumCard name="Chicken Scratch" creditsUrl="/music/chicken-scratch" />
+    <ChickenScratchAlbumCard name="Chicken Scratch - 6/4/2022" creditsUrl="/music/chicken-scratch" />
 ]
 
 export default Music
