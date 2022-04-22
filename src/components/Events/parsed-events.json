@@ -51,11 +51,11 @@
   {
     "meta": {
       "title": "Arnold's Bar and Grill",
-      "gigDateTime": "2022-10-30T00:30:00.000Z",
+      "gigDateTime": "2022-10-23T00:30:00.000Z",
       "address": "210 E 8th St, Cincinnati, OH 45202",
       "thumbnail": "/images/uploads/arnolds.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill-3.md",
-      "mtime": "2021-12-02T17:53:54.897Z",
+      "mtime": "2022-04-21T19:56:04.489Z",
       "birthtime": "2021-12-02T17:53:54.897Z"
     },
     "html": ""
@@ -86,6 +86,56 @@
   },
   {
     "meta": {
+      "title": "Cappy’s Wine and Spirits",
+      "gigDateTime": "2022-09-03T23:30:38.893Z",
+      "address": "309 W. Loveland ave.",
+      "thumbnail": "/images/uploads/cappys6 copy.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappy’s-wine-and-spirits-1.md",
+      "mtime": "2022-04-21T19:56:04.489Z",
+      "birthtime": "2022-04-21T19:56:04.489Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Cappy’s Wine and Spirits",
+      "gigDateTime": "2022-10-29T23:30:46.855Z",
+      "caption": "Halloween Weekend in Loveland!",
+      "thumbnail": "/images/uploads/cappys6 copy.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappy’s-wine-and-spirits-2.md",
+      "mtime": "2022-04-21T19:56:04.489Z",
+      "birthtime": "2022-04-21T19:56:04.489Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Cappy’s Wine and Spirits",
+      "gigDateTime": "2023-01-01T01:30:55.074Z",
+      "address": "309 W. Loveland ave",
+      "caption": "Celebrate New Years Eve with Rooster Ridge!",
+      "thumbnail": "/images/uploads/cappys6 copy.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappy’s-wine-and-spirits-3.md",
+      "mtime": "2022-04-21T19:56:04.490Z",
+      "birthtime": "2022-04-21T19:56:04.490Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Cappy’s Wine and Spirits Album Release Party",
+      "gigDateTime": "2022-06-04T23:30:00.000Z",
+      "address": "309 W. Loveland ave.",
+      "caption": "Join us as we celebrate the release of our first album titled Chicken Scratch",
+      "thumbnail": "/images/uploads/coverfront.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappy’s-wine-and-spirits.md",
+      "mtime": "2022-04-22T13:32:44.689Z",
+      "birthtime": "2022-04-21T19:56:04.490Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
       "title": "Clear Mountain Food Park",
       "gigDateTime": "2022-09-10T22:30:55.811Z",
       "address": "2792 Old State Route 32 Batavia, Ohio 45103",
@@ -107,6 +157,18 @@
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/rooster-ridge-at-cappys-3.md",
       "mtime": "2022-01-29T13:49:14.222Z",
       "birthtime": "2021-12-02T17:53:54.897Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Swine City Brewing",
+      "gigDateTime": "2022-08-20T23:00:11.153Z",
+      "address": "4614 Industry Dr, Fairfield, OH 45014",
+      "thumbnail": "/images/uploads/rooster.png",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/swine-city-brewing.md",
+      "mtime": "2022-04-21T19:56:04.491Z",
+      "birthtime": "2022-04-21T19:56:04.490Z"
     },
     "html": ""
   }
