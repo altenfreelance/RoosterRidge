@@ -6,10 +6,15 @@ export default function AlbumCredits({ title, abouts, songs, AlbumCardComp }) {
 
         <div>
             <h1>{title}</h1>
+            <a
+                href="https://roosterridge.bandcamp.com"
+                className="btn btn-light btn-sm m-1">
+                Rooster Ridge - 🪕 BandCamp.com
+            </a>
+            <h3>Other digital and physical listening options will be provided on June 4th. Set yourself a reminder to come back to this page and follow us on social media!</h3>
             {AlbumCardComp}
-            <h3>Digital and physical listening options will be provided on June 4th. Set yourself a reminder to come back to this page and follow us on social media!</h3>
-            {/* <div>
-                <a
+            <div>
+                {/* <a
                     href="https://open.spotify.com/album/insertidhere"
                     className="btn btn-light btn-sm m-1">
                     <Icon icon="mdi:spotify" />
@@ -21,14 +26,8 @@ export default function AlbumCredits({ title, abouts, songs, AlbumCardComp }) {
                     <Icon
                         icon="cib:apple-music"
                     />
-                </a>
-                <a
-                    href="https://roosterridge.bandcamp.com"
-                    className="btn btn-light btn-sm m-1">
-                    Band Camp
-                </a>
-
-            </div> */}
+                </a> */}
+            </div>
 
             <div>
                 {abouts.map((item, i) => {
