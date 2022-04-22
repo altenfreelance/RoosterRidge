@@ -107,7 +107,7 @@ export default function ChickenScratch() {
                                 "Bryce - Lead vocals, harmonica",
                                 "Greg - Banjo",
                                 "Andrew - Dobro",
-                                "Jacob - Vocals, guitar, percussion",
+                                "Jacob - Vocals, guitar",
                                 "Jamie - Vocals, bass"
                             ]
 
