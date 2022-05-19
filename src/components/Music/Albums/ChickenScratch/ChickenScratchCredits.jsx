@@ -44,7 +44,7 @@ export default function ChickenScratch() {
                         title: "Honest Man",
                         instrumentation:
                             [
-                                "Bryce - Lead vocals, harmonica",
+                                "Bryce - Lead vocals",
                                 "Joey - Vocals",
                                 "Greg - Banjo",
                                 "Andrew - Mandolin",
