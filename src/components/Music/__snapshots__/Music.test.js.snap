@@ -2,20 +2,135 @@
 
 exports[`renders (matches snapshot)  1`] = `
 <DocumentFragment>
-  <div>
+  <div
+    class="container"
+  >
     <h1>
-      New Music Coming Soon!
+      Music
     </h1>
-    <p>
-      We are releasing an album late spring of 2022. Stay up to date with us on 
-      <a
-        href="https://www.facebook.com/RoosterRidgeOfficial/"
-      >
-         Facebook 
-      </a>
-       for updates and promotions!
-    </p>
-    <br />
+    <div
+      class="row"
+    >
+      <div>
+        <div
+          class="col-sm-12 p-3"
+        >
+          <div>
+            <div
+              class="container"
+            >
+              <h1>
+                <b>
+                  Chicken Scratch
+                </b>
+              </h1>
+              <a
+                href="/music/chicken-scratch"
+              >
+                 
+                <span
+                  aria-label=""
+                  role="img"
+                >
+                  🐔
+                </span>
+                 Album Details 
+                <span
+                  aria-label=""
+                  role="img"
+                >
+                  🐔
+                </span>
+                 
+              </a>
+              <div>
+                 6/4/2022 
+              </div>
+              <section>
+                <link
+                  href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+                  rel="stylesheet"
+                />
+                <div
+                  class="container"
+                >
+                  <div
+                    class="text-center center-block"
+                  >
+                    <a
+                      href="https://roosterridge.bandcamp.com/releases"
+                    >
+                      <i
+                        class="fa fa-brands fa-bandcamp social fa-3x"
+                        id="social-bandcamp"
+                        title="Rooster Ridge's Chicken Scratch on Bandcamp"
+                      />
+                    </a>
+                    <a
+                      href="https://open.spotify.com/artist/7F5waAovJLtcJMpMM4C7yx?si=EhbY9WyNR2CJ5evtQi_4KA"
+                    >
+                      <i
+                        class="fa fa-brands fa-spotify social fa-3x"
+                        id="social-spotify"
+                        title="Rooster Ridge's Chicken Scratch on Spotify"
+                      />
+                    </a>
+                    <a
+                      href="https://music.apple.com/us/artist/rooster-ridge/1618610103"
+                    >
+                      <i
+                        class="fa fa-brands fa-apple social fa-3x"
+                        id="social-apple"
+                        title="Rooster Ridge's Chicken Scratch on Apple Music"
+                      />
+                    </a>
+                    <a
+                      href="https://www.youtube.com/channel/UCE0jXwLwL7T6zIoQCnHVUzw"
+                    >
+                      <i
+                        class="fa fa-brands fa-youtube fa-3x social"
+                        id="social-yt"
+                        title="Rooster Ridge's Chicken Scratch on Youtube"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </section>
+              <div
+                class="row"
+              >
+                <div
+                  class="col-sm-6"
+                >
+                   
+                  <figure>
+                    <img
+                      alt="Chicken Scratch"
+                      caption=""
+                      src="/images/albums/chicken-scratch/CoverFront.jpg"
+                      style="width: 100%;"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="col-sm-6"
+                >
+                   
+                  <figure>
+                    <img
+                      alt="Chicken Scratch"
+                      caption=""
+                      src="/images/albums/chicken-scratch/CoverBack.jpg"
+                      style="width: 100%;"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;

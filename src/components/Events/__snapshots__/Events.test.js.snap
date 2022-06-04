@@ -18,28 +18,30 @@ exports[`renders (matches snapshot)  1`] = `
           >
             <h4>
               <b>
-                Arnold's Bar and Gril
+                Cappy’s Wine and Spirits Album Release Party
               </b>
             </h4>
             <div>
               <h5>
-                Sat Apr 30 2022
+                Sat Jun 04 2022
               </h5>
               <h5>
-                08:30 PM EDT
+                07:30 PM EDT
               </h5>
             </div>
             <p
               class="link"
             >
-              210 E 8th St, Cincinnati, OH 45202
+              309 W. Loveland ave.
             </p>
             <figure>
-              <figcaption />
+              <figcaption>
+                Join us as we celebrate the release of our first album titled Chicken Scratch
+              </figcaption>
               <img
-                alt="Arnold's Bar and Gril"
+                alt="Cappy’s Wine and Spirits Album Release Party"
                 caption=""
-                src="/images/uploads/arnoldslogo.jfif"
+                src="/images/uploads/coverfront.jpg"
                 style="width: 100%;"
               />
             </figure>
@@ -63,7 +65,7 @@ exports[`renders (matches snapshot)  1`] = `
                 Sat Jun 25 2022
               </h5>
               <h5>
-                08:30 PM EDT
+                08:00 PM EDT
               </h5>
             </div>
             <p
@@ -92,6 +94,43 @@ exports[`renders (matches snapshot)  1`] = `
           >
             <h4>
               <b>
+                Swine City Brewing
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Aug 20 2022
+              </h5>
+              <h5>
+                07:00 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              4614 Industry Dr, Fairfield, OH 45014
+            </p>
+            <figure>
+              <figcaption />
+              <img
+                alt="Swine City Brewing"
+                caption=""
+                src="/images/uploads/rooster.png"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
                 Arnold's Bar and Grill
               </b>
             </h4>
@@ -100,7 +139,7 @@ exports[`renders (matches snapshot)  1`] = `
                 Sat Aug 27 2022
               </h5>
               <h5>
-                08:30 PM EDT
+                08:00 PM EDT
               </h5>
             </div>
             <p
@@ -113,7 +152,44 @@ exports[`renders (matches snapshot)  1`] = `
               <img
                 alt="Arnold's Bar and Grill"
                 caption=""
-                src="/images/uploads/arnoldsgreatmusic.jfif"
+                src="/images/uploads/76289.jpeg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Cappy’s Wine and Spirits
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Sep 03 2022
+              </h5>
+              <h5>
+                07:30 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland ave.
+            </p>
+            <figure>
+              <figcaption />
+              <img
+                alt="Cappy’s Wine and Spirits"
+                caption=""
+                src="/images/uploads/cappys6 copy.jpg"
                 style="width: 100%;"
               />
             </figure>
@@ -207,12 +283,84 @@ exports[`renders (matches snapshot)  1`] = `
           >
             <h4>
               <b>
+                Bishop's Quarter Rooftop
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Sep 24 2022
+              </h5>
+              <h5>
+                08:00 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            />
+            <figure>
+              <figcaption />
+              <img
+                alt="Bishop's Quarter Rooftop"
+                caption=""
+                src="/images/uploads/BQ.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Macadu's
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Oct 15 2022
+              </h5>
+              <h5>
+                08:00 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              921 OH-28, Milford, OH 45150
+            </p>
+            <figure>
+              <figcaption />
+              <img
+                alt="Macadu's"
+                caption=""
+                src="/images/uploads/img_1_1651600476914.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
                 Arnold's Bar and Grill
               </b>
             </h4>
             <div>
               <h5>
-                Sat Oct 29 2022
+                Sat Oct 22 2022
               </h5>
               <h5>
                 08:30 PM EDT
@@ -229,6 +377,43 @@ exports[`renders (matches snapshot)  1`] = `
                 alt="Arnold's Bar and Grill"
                 caption=""
                 src="/images/uploads/arnolds.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Cappy’s Wine and Spirits
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Oct 29 2022
+              </h5>
+              <h5>
+                07:30 PM EDT
+              </h5>
+            </div>
+            <p
+              class="link"
+            />
+            <figure>
+              <figcaption>
+                Halloween Weekend in Loveland!
+              </figcaption>
+              <img
+                alt="Cappy’s Wine and Spirits"
+                caption=""
+                src="/images/uploads/cappys6 copy.jpg"
                 style="width: 100%;"
               />
             </figure>
@@ -266,6 +451,45 @@ exports[`renders (matches snapshot)  1`] = `
                 alt="Arnold's Bar and Grill"
                 caption=""
                 src="/images/uploads/cappys6.jpg"
+                style="width: 100%;"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-sm-6 p-3"
+      >
+        <div>
+          <div
+            class="container"
+          >
+            <h4>
+              <b>
+                Cappy’s Wine and Spirits
+              </b>
+            </h4>
+            <div>
+              <h5>
+                Sat Dec 31 2022
+              </h5>
+              <h5>
+                08:30 PM EST
+              </h5>
+            </div>
+            <p
+              class="link"
+            >
+              309 W. Loveland ave
+            </p>
+            <figure>
+              <figcaption>
+                Celebrate New Years Eve with Rooster Ridge!
+              </figcaption>
+              <img
+                alt="Cappy’s Wine and Spirits"
+                caption=""
+                src="/images/uploads/cappys6 copy.jpg"
                 style="width: 100%;"
               />
             </figure>

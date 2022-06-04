@@ -12,9 +12,9 @@ exports[`renders (matches snapshot)  1`] = `
         class="nav nav-masthead justify-content-center"
       >
         <a
-          href="/home"
+          href="/about"
         >
-          Home
+          About
         </a>
         <a
           href="/shows"

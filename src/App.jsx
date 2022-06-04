@@ -11,7 +11,6 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 import Events from "./components/Events/Events";
-// import VidContainer from './VidContainer';
 import Contact from "./components/Contact/Contact";
 import Music from "./components/Music/Music";
 import Bio from "./components/Home/Bio";
@@ -39,10 +38,9 @@ function App() {
           />
           <Switch>
             <Route exact path="/">
-              <Redirect to="/home" />
+              <Redirect to="/music" />
             </Route>
-            <Route exact path="/home">
-              {/* <VidContainer /> */}
+            <Route exact path="/about">
               <Bio />
             </Route>
             <Route exact path="/shows">
@@ -61,7 +59,7 @@ function App() {
               <ChickenScratchCredits />
             </Route>
             <Route path="*">
-              <Redirect to="/home" />
+              <Redirect to="/music" />
             </Route>
           </Switch>
         </Router>
