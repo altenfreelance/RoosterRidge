@@ -57,7 +57,10 @@ export default class Footer extends Component {
                 ></i>
               </a>
               <a href="https://www.instagram.com/roosterridgeofficial/">
-                <i id="social-ig" className="fa fa-brands fa-instagram fa-3x social"></i>
+                <i
+                  title="Rooster Ridge on Instagram"
+                  id="social-ig"
+                  className="fa fa-brands fa-instagram fa-3x social"></i>
               </a>
               <a href="mailto:roosterridgeofficial@gmail.com">
                 <i
