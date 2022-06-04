@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 
 import AlbumCredits from '../../AlbumCredits';
-import ChickenScratchAlbumCard from './ChickenScratchAlbumCard';
+import { ChickenScratchAlbumCard } from '../../Music';
 
 export default function ChickenScratch() {
 
@@ -14,8 +14,7 @@ export default function ChickenScratch() {
                 {/* <meta name="robots" content="noindex" /> */}
             </Helmet>
             <AlbumCredits
-                AlbumCardComp={
-                    <ChickenScratchAlbumCard />}
+                AlbumCardComp={ChickenScratchAlbumCard(false)}
 
                 title="Chicken Scratch"
                 abouts={

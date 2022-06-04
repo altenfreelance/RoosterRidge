@@ -8,8 +8,8 @@ export default class NavHeader extends Component {
         <div className="inner">
           {/* <h3 style={{fontFamily: 'serif', textTransform: 'title'}} className="masthead-brand">Rooster Ridge</h3> */}
           <nav className="nav nav-masthead justify-content-center">
-            <NavLink to="/home" activeClassName="active" replace>
-              Home
+            <NavLink to="/about" activeClassName="active" replace>
+              About
             </NavLink>
             <NavLink to="/shows" activeClassName="active" replace>
               Shows

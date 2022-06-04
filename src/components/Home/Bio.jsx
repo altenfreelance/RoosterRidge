@@ -7,7 +7,6 @@ export default function Bio() {
             <Helmet>
                 <title>Rooster Ridge</title>
             </Helmet>
-
             <h1>About the Band</h1>
             <div style={{ color: "white" }} className="py-4 px-5">
                 <p>

@@ -6,11 +6,9 @@ exports[`renders (matches snapshot)  1`] = `
     class="mastfoot mt-auto"
     style="background-color: rgba(128, 0, 0, 0.8); position: absolute; bottom: 0px; left: 0px; right: 0px;"
   >
-    <section
-      id="lab_social_icon_footer"
-    >
+    <section>
       <link
-        href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         rel="stylesheet"
       />
       <div
@@ -20,26 +18,55 @@ exports[`renders (matches snapshot)  1`] = `
           class="text-center center-block"
         >
           <a
+            href="https://open.spotify.com/artist/7F5waAovJLtcJMpMM4C7yx?si=EhbY9WyNR2CJ5evtQi_4KA"
+          >
+            <i
+              class="fa fa-brands fa-spotify social fa-3x"
+              id="social-spotify"
+              title="Rooster Ridge on Spotify"
+            />
+          </a>
+          <a
+            href="https://music.apple.com/us/artist/rooster-ridge/1618610103"
+          >
+            <i
+              class="fa fa-brands fa-apple social fa-3x"
+              id="social-apple"
+              title="Rooster Ridge on Apple Music"
+            />
+          </a>
+          <a
+            href="https://roosterridge.bandcamp.com/releases"
+          >
+            <i
+              class="fa fa-brands fa-bandcamp social fa-3x"
+              id="social-bandcamp"
+              title="Rooster Ridge on Bandcamp"
+            />
+          </a>
+          <a
             href="https://www.youtube.com/channel/UCE0jXwLwL7T6zIoQCnHVUzw"
           >
             <i
-              class="fa fa-youtube-square fa-3x social"
+              class="fa fa-brands fa-youtube fa-3x social"
               id="social-yt"
+              title="Rooster Ridge on Youtube"
             />
           </a>
           <a
             href="https://www.facebook.com/RoosterRidgeOfficial/"
           >
             <i
-              class="fa fa-facebook-square fa-3x social"
+              class="fa fa-brands fa-facebook fa-3x social"
               id="social-fb"
+              title="Rooster Ridge on Facebook"
             />
           </a>
           <a
             href="https://www.instagram.com/roosterridgeofficial/"
           >
             <i
-              class="fa fa-instagram fa-3x social"
+              class="fa fa-brands fa-instagram fa-3x social"
               id="social-ig"
             />
           </a>
@@ -49,6 +76,7 @@ exports[`renders (matches snapshot)  1`] = `
             <i
               class="fa fa-envelope-square fa-3x social"
               id="social-em"
+              title="Email Rooster Ridge"
             />
           </a>
         </div>
