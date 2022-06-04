@@ -23,28 +23,28 @@ export default class AlbumCard extends Component {
               />
               <div className="container">
                 <div className="text-center center-block">
-                  {bandCampLink && <a href="https://roosterridge.bandcamp.com/releases">
+                  {bandCampLink && <a href={bandCampLink}>
                     <i
                       title={`Rooster Ridge's ${name} on Bandcamp`}
                       id="social-bandcamp"
                       className="fa fa-brands fa-bandcamp social fa-3x">
                     </i>
                   </a>}
-                  {spotifyLink && <a href="https://open.spotify.com/artist/7F5waAovJLtcJMpMM4C7yx?si=EhbY9WyNR2CJ5evtQi_4KA">
+                  {spotifyLink && <a href={spotifyLink}>
                     <i
                       title={`Rooster Ridge's ${name} on Spotify`}
                       id="social-spotify"
                       className="fa fa-brands fa-spotify social fa-3x">
                     </i>
                   </a>}
-                  {appleMusicLink && <a href="https://music.apple.com/us/artist/rooster-ridge/1618610103">
+                  {appleMusicLink && <a href={appleMusicLink}>
                     <i
                       title={`Rooster Ridge's ${name} on Apple Music`}
                       id="social-apple"
                       className="fa fa-brands fa-apple social fa-3x">
                     </i>
                   </a>}
-                  {youtubeLink && <a href="https://www.youtube.com/channel/UCE0jXwLwL7T6zIoQCnHVUzw">
+                  {youtubeLink && <a href={youtubeLink}>
                     <i
                       title={`Rooster Ridge's ${name} on Youtube`}
                       id="social-yt"
