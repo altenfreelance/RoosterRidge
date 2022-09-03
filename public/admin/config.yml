@@ -11,6 +11,7 @@ collections:
     folder: "events" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    sortable_fields: ['title', 'gigDateTime']
     fields: # The fields for each document, usually in front matter
       - {label: "Gig Title", name: "title", widget: "string"}
       - {label: "Date and Time", name: "gigDateTime", widget: "datetime"}
