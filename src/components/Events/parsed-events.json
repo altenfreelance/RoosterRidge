@@ -172,6 +172,29 @@
   },
   {
     "meta": {
+      "title": "Nativity Festival",
+      "gigDateTime": "2022-09-04T22:00:54.815Z",
+      "address": "5935 Pandora Ave, Cincinnati, OH 45213",
+      "thumbnail": "/images/uploads/RailRoadAve.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/nativity-festival.md",
+      "mtime": "2022-09-03T14:50:10.630Z",
+      "birthtime": "2022-09-03T14:50:10.630Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Private Event",
+      "gigDateTime": "2022-09-16T22:45:41.593Z",
+      "thumbnail": "/images/uploads/roosterridge-sansguitar-tr.png",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/private-event.md",
+      "mtime": "2022-09-03T14:50:10.631Z",
+      "birthtime": "2022-09-03T14:50:10.630Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
       "title": "New Year's Eve at Cappy's",
       "gigDateTime": "2022-01-01T02:00:24.911Z",
       "address": "309 West Loveland Ave Loveland OH 45140",
@@ -185,12 +208,12 @@
   },
   {
     "meta": {
-      "title": "Swine City Brewing",
+      "title": "[Cancelled by Venue] - Swine City Brewing",
       "gigDateTime": "2022-08-20T23:00:11.153Z",
       "address": "4614 Industry Dr, Fairfield, OH 45014",
       "thumbnail": "/images/uploads/rooster.png",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/swine-city-brewing.md",
-      "mtime": "2022-04-21T19:56:04.491Z",
+      "mtime": "2022-09-03T14:50:10.632Z",
       "birthtime": "2022-04-21T19:56:04.490Z"
     },
     "html": ""
