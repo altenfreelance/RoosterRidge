@@ -38,7 +38,7 @@ function App() {
           />
           <Switch>
             <Route exact path="/">
-              <Redirect to="/music" />
+              <Redirect to="/shows" />
             </Route>
             <Route exact path="/about">
               <Bio />
@@ -59,7 +59,7 @@ function App() {
               <ChickenScratchCredits />
             </Route>
             <Route path="*">
-              <Redirect to="/music" />
+              <Redirect to="/shows" />
             </Route>
           </Switch>
         </Router>
