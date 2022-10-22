@@ -1,0 +1,26 @@
+on:
+  push:
+    branches:
+      - master
+jobs:
+  calendar_and_social_action:
+    runs-on: ubuntu-latest  # windows-latest | macos-latest
+    name: Look for modified Events
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+
+      - name: Look for event files that changed
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v33
+        with:
+          files: |
+            events/**
+
+      - name: Run bluegrass bot with changed files
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        uses: ./
+        id: EventOutput
+        with:
+          file-name: '${{ steps.changed-files-specific.outputs.all_changed_files }}'
