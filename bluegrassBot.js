@@ -14,7 +14,7 @@ try {
     console.log(fileName)
 
     // Output full event details
-    const { title, address, gigDateTime } = md.processFile(resolve(__dirname, fileName)).meta;
+    const { title, address, gigDateTime } = md.processFile(resolve(__dirname, `../../${fileName}`)).meta;
     console.log("title: ", title)
     console.log("address: ", address)
     const dateTime = new Date(gigDateTime)
@@ -32,7 +32,7 @@ try {
     console.log(randomPost)
 
     // TODO Email event details as calendar invite (or some sort of link that will create the calendar invite)
-    // TODO Email post details (or create link that autofills a post)
+    // TODO Email post details (or create link that autofills a post)gi
 
 } catch (error) {
     core.setFailed(error.message);
