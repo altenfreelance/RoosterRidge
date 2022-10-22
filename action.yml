@@ -1,0 +1,11 @@
+name: 'Event-Output'
+description: 'Output Event details'
+
+inputs:
+  file-name:
+    description: 'fileName for event to parse'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/bluegrassBot/index.js'

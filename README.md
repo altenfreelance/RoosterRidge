@@ -1,3 +1,17 @@
+# Rooster Ridge
+
+## bluegrassBot.js
+```sh
+# Instal ncc
+npm i -g @vercel/ncc
+
+# Update the compiled version of bluegrassBot.js so we don't have to check in node modules
+ncc build bluegrassBot.js --license licenses.txt --out dist/bluegrassBot
+
+# Which creates or updates dist/index.js (used in action.yml)
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
