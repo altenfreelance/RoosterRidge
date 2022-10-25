@@ -5,22 +5,56 @@ on:
 jobs:
   calendar_and_social_action:
     runs-on: ubuntu-latest  # windows-latest | macos-latest
-    name: Look for modified Events
+    name: Notify the band about new events
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
 
-      - name: Look for event files that changed
+      - name: Look for new or modified events
         id: changed-files-specific
         uses: tj-actions/changed-files@v33
         with:
           files: |
             events/**
 
-      - name: Run bluegrass bot with changed files
+      - name: Create calendar file and generate social media post
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         uses: ./
         id: EventOutput
         with:
           file-name: '${{ steps.changed-files-specific.outputs.all_changed_files }}'
+
+      - name: Send Calendar Invite to RR Gmail
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          subject: ${{ steps.EventOutput.outputs.gig_title }}
+          to: RoosterRidgeOfficial@gmail.com
+          from: Bluegrass Bot # <user@example.com>
+          body: This is an automated calendar invite created because someone added an event to the website
+          ignore_cert: true
+          convert_markdown: true
+          attachments: /home/runner/work/RoosterRidge/RoosterRidge/dist/bluegrassBot/event.ics
+          priority: low
+      - name: Send Social Media Post Suggestion to RR Gmail
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          subject: Social Media Suggestion for ${{ steps.EventOutput.outputs.gig_title }}
+          to: RoosterRidgeOfficial@gmail.com
+          from: Bluegrass Bot # <user@example.com>
+          body: ${{ steps.EventOutput.outputs.social_suggestion }}
+          ignore_cert: true
+          convert_markdown: true
+          priority: low
