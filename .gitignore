@@ -86,3 +86,6 @@ yarn-error.log*
 **/*.idea
 **/*.iml
 **/*.bitmap
+
+# Events calendar file
+**/event.ics
