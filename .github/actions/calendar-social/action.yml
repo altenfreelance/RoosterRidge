@@ -8,4 +8,4 @@ inputs:
 
 runs:
   using: 'node16'
-  main: 'dist/bluegrassBot/index.js'
+  main: '../../../dist/calendar-invite-and-social-post/index.js'

@@ -20,7 +20,7 @@ jobs:
 
       - name: Create calendar file and generate social media post
         if: steps.changed-files-specific.outputs.any_changed == 'true'
-        uses: ./
+        uses: ./.github/actions/calendar-social
         id: EventOutput
         with:
           file-name: '${{ steps.changed-files-specific.outputs.all_changed_files }}'
@@ -40,7 +40,7 @@ jobs:
           body: This is an automated calendar invite created because someone added an event to the website
           ignore_cert: true
           convert_markdown: true
-          attachments: /home/runner/work/RoosterRidge/RoosterRidge/dist/bluegrassBot/event.ics
+          attachments: /home/runner/work/RoosterRidge/RoosterRidge/dist/calendar-invite-and-social-post/event.ics
           priority: low
       - name: Send Social Media Post Suggestion to RR Gmail
         if: steps.changed-files-specific.outputs.any_changed == 'true'
