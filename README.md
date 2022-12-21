@@ -1,12 +1,23 @@
 # Rooster Ridge
 
-## bluegrassBot.js
+## calendar-invite-and-social-post.js
 ```sh
 # Instal ncc
 npm i -g @vercel/ncc
 
-# Update the compiled version of bluegrassBot.js so we don't have to check in node modules
-ncc build bluegrassBot.js --license licenses.txt --out dist/bluegrassBot
+# Update the compiled version of calendar-invite-and-social-post.js so we don't have to check in node modules
+ncc build calendar-invite-and-social-post.js --license licenses.txt --out dist/calendar-invite-and-social-post
+
+# Which creates or updates dist/index.js (used in action.yml)
+```
+
+## monthly-update.js
+```sh
+# Instal ncc
+npm i -g @vercel/ncc
+
+# Update the compiled version of monthly-update.js so we don't have to check in node modules
+ncc build monthly-update.js --license licenses.txt --out dist/monthly-update
 
 # Which creates or updates dist/index.js (used in action.yml)
 ```

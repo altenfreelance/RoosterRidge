@@ -1,0 +1,10 @@
+name: 'Monthly-Update'
+description: 'Monthly Show Update'
+
+outputs:
+  update_message: 
+    description: 'The update message'
+
+runs:
+  using: 'node16'
+  main: '../../../dist/monthly-update/index.js'
