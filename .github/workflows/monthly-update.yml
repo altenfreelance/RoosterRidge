@@ -1,8 +1,8 @@
 name: "Send Monthly Update"
 on:
   schedule:
-  # 10:40 am on every 21 of each month
-  - cron: "40 15 21 * *" # UTC
+  # 9:00 am est on every 20 of each month
+  - cron: "00 14 20 * *" # UTC
 
 #   ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
