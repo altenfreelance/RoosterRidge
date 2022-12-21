@@ -2,6 +2,8 @@ on:
   push:
     branches:
       - master
+
+name: "Handle any New Events"
 jobs:
   calendar_and_social_action:
     runs-on: ubuntu-latest  # windows-latest | macos-latest
