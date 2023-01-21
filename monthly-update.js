@@ -65,7 +65,7 @@ function getUpdateMessage(readableEvents) {
         msg += `${title} on ${day} ${date} at ${time}. `
     });
 
-    msg += "You can find address details on our website at roosterridgeoffical.com/shows"
+    msg += "You can find address details on our website at roosterridgeofficial.com/shows"
     return msg
 }
 
