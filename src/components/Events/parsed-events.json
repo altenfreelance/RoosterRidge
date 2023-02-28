@@ -4,10 +4,10 @@
       "title": "American Legion ",
       "gigDateTime": "2023-03-05T00:00:43.654Z",
       "address": "897 Oakland Rd, Loveland, OH 45140",
-      "caption": "American Legion in Loveland is open to the public on March 4th!",
+      "caption": "American Legion in Loveland is open to the public on Saturday, March 4th!",
       "thumbnail": "/images/uploads/american-legion-logo-350-288x300.png",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/american-legion.md",
-      "mtime": "2022-12-20T17:24:31.788Z",
+      "mtime": "2023-01-21T14:34:32.987Z",
       "birthtime": "2022-12-20T17:24:31.787Z"
     },
     "html": ""
@@ -101,11 +101,12 @@
   {
     "meta": {
       "title": "Cappy's",
-      "gigDateTime": "2023-02-12T00:00:47.303Z",
+      "gigDateTime": "2023-02-12T01:00:47.303Z",
       "address": "309 W Loveland Ave, Loveland, OH 45140",
+      "caption": "Come join Rooster Ridge at Cappy's for Valentine's Day weekend in downtown Loveland!",
       "thumbnail": "/images/uploads/cappys.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys.md",
-      "mtime": "2022-10-25T21:44:58.383Z",
+      "mtime": "2023-02-28T13:44:40.787Z",
       "birthtime": "2022-10-22T17:36:06.268Z"
     },
     "html": ""
