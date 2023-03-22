@@ -1,5 +1,18 @@
 # Rooster Ridge
 
+## Preqs
+
+yarn
+node
+nvm https://github.com/nvm-sh/nvm#installing-and-updating 
+
+run `nvm use`
+
+## To compress image
+
+TODO
+
+
 ## calendar-invite-and-social-post.js
 ```sh
 # Instal ncc
