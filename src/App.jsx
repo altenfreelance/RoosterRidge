@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
-import Footer from "./components/Footer/Footer";
-import Members from "./components/Members/Members";
-import NavHeader from "./components/Nav/NavHeader";
+import Footer from "./pages/Footer/Footer";
+import Members from "./pages/Members/Members";
+import NavHeader from "./pages/Nav/NavHeader";
 
 import {
   Route,
@@ -10,11 +10,11 @@ import {
   Switch,
   BrowserRouter as Router
 } from "react-router-dom";
-import Events from "./components/Events/Events";
-import Contact from "./components/Contact/Contact";
-import Music from "./components/Music/Music";
-import Bio from "./components/Home/Bio";
-import ChickenScratchCredits from "./components/Music/Albums/ChickenScratch/ChickenScratchCredits";
+import Events from "./pages/Events/Events";
+import Contact from "./pages/Contact/Contact";
+import Music from "./pages/Music/Music";
+import Bio from "./pages/Home/Bio";
+import ChickenScratchCredits from "./pages/Music/Albums/ChickenScratch/ChickenScratchCredits";
 
 function App() {
   const logo_img = '/images/RR.jpg';

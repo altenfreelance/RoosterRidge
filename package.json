@@ -6,22 +6,25 @@
     "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.3",
     "@iconify/react": "^3.2.1",
+    "compress-images": "^2.0.5",
+    "gifsicle": "5.2.1",
     "ics": "^2.40.0",
     "md-yaml-json": "^1.1.1",
+    "pngquant-bin": "6.0.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^6.1.0",
     "react-loading": "^2.0.3",
+    "react-progressive-graceful-image": "^0.7.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.0",
-    "react-youtube": "^7.9.0"
+    "react-scripts": "^3.4.0"
   },
   "scripts": {
-    "start": "node src/mdToJson.js && react-scripts start",
+    "start": "rm -rf public/images/tiny/** && yarn run rr-prepare && react-scripts start",
     "build": "node src/mdToJson.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "mdToJson": "node src/mdToJson.js"
+    "rr-prepare": "node src/mdToJson.js && node compress-images.js"
   },
   "eslintConfig": {
     "extends": "react-app"
