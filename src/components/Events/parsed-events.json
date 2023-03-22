@@ -151,6 +151,31 @@
   },
   {
     "meta": {
+      "title": "Lebanon Country Music Festival",
+      "gigDateTime": "2023-06-10T18:30:19.536Z",
+      "address": "Downtown Lebanon, OH",
+      "thumbnail": "/images/uploads/logo.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/lebanon-country-music-festival.md",
+      "mtime": "2023-03-22T01:25:39.378Z",
+      "birthtime": "2023-03-22T01:25:26.908Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Loveland Concert in the Park",
+      "gigDateTime": "2023-08-13T22:00:10.802Z",
+      "address": "126 Karl Brown Way, Loveland, OH 45140",
+      "caption": "",
+      "thumbnail": "/images/uploads/rr_nisbet1.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/loveland-concert-in-the-park.md",
+      "mtime": "2023-03-22T01:25:39.379Z",
+      "birthtime": "2023-03-22T01:25:26.909Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
       "title": "Macadu's",
       "gigDateTime": "2022-10-16T00:00:48.563Z",
       "address": "921 OH-28, Milford, OH 45150",
@@ -163,13 +188,46 @@
   },
   {
     "meta": {
-      "title": "New Year's Eve at Cappy's",
-      "gigDateTime": "2024-01-01T02:00:50.137Z",
-      "address": "309 W Loveland Ave, Loveland, OH 45140",
+      "title": "Oktoberfest in Loveland",
+      "gigDateTime": "2023-09-23T21:00:07.445Z",
+      "caption": "Hosted by Hop's and Berry, Trailside Cafe, and The City of Loveland (Music from 5-9)",
+      "thumbnail": "/images/uploads/img_20230308_084037.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/oktoberfest-in-loveland.md",
+      "mtime": "2023-03-22T01:25:39.379Z",
+      "birthtime": "2023-03-22T01:25:26.909Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Private Event",
+      "gigDateTime": "2023-06-24T22:00:57.366Z",
+      "thumbnail": "/images/uploads/chickenscratch.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/private-event-1.md",
+      "mtime": "2023-03-22T01:25:39.380Z",
+      "birthtime": "2023-03-22T01:25:26.909Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Private Event",
+      "gigDateTime": "2023-04-29T22:00:37.288Z",
+      "thumbnail": "/images/uploads/ArnoldsAlleyWay.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/private-event-2.md",
+      "mtime": "2023-03-22T01:25:39.380Z",
+      "birthtime": "2023-03-22T01:25:26.909Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Private Event",
+      "gigDateTime": "2023-03-15T23:00:11.515Z",
       "thumbnail": "/images/uploads/cappys.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/new-years-eve-at-cappys.md",
-      "mtime": "2022-12-20T17:24:31.794Z",
-      "birthtime": "2022-12-20T17:24:31.793Z"
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/private-event.md",
+      "mtime": "2023-03-22T01:25:39.381Z",
+      "birthtime": "2023-03-22T01:25:26.910Z"
     },
     "html": ""
   }
