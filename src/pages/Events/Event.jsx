@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import RRImage from "../../components/RRImage";
 import Address from "./Address";
 
 export default class Event extends Component {
@@ -12,7 +13,7 @@ export default class Event extends Component {
             <h4>
               <b>{name}</b>
             </h4>
-            
+
             <div >
               <h5>{new Date(date).toDateString()}</h5>
               <h5>{time}</h5>
@@ -21,12 +22,12 @@ export default class Event extends Component {
             <Address address={address} />
             <figure>
               <figcaption>{this.props.caption}</figcaption>
-              <img
+              <RRImage
                 src={img_url}
                 alt={name}
-                style={{ width: "100%"}}
+                style={{ width: "100%" }}
                 caption=""
-                />
+              />
             </figure>
           </div>
         </div>
