@@ -3,6 +3,7 @@ import "./index.css";
 import Footer from "./pages/Footer/Footer";
 import Members from "./pages/Members/Members";
 import NavHeader from "./pages/Nav/NavHeader";
+import MediaKit from "./pages/MediaKit/MediaKit";
 
 import {
   Route,
@@ -59,6 +60,9 @@ function App() {
             </Route>
             <Route exact path="/music/chicken-scratch">
               <ChickenScratchCredits />
+            </Route>
+            <Route exact path="/media-kit">
+              <MediaKit />
             </Route>
             <Route path="*">
               <Redirect to="/shows" />
