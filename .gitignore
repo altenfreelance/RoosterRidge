@@ -89,3 +89,9 @@ yarn-error.log*
 
 # Events calendar file
 **/event.ics
+
+public/images/compressed/*
+
+log/*
+
+images-temp/**
