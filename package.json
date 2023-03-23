@@ -20,11 +20,13 @@
     "react-scripts": "^3.4.0"
   },
   "scripts": {
-    "start": " yarn run rr-prepare && react-scripts start",
+    "start": "yarn run rr-prepare && react-scripts start",
     "build": "yarn run rr-prepare && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "rr-prepare": "rm -rf public/images/compressed/** && node src/mdToJson.js && node compress-images.js"
+    "rr-prepare": "yarn run rr-prepare:images && yarn run rr-prepare:gigs",
+    "rr-prepare:images": " rm -rf public/images/compressed/** && rm -rf images-temp/** && mv public/images/** images-temp/. && node compress-images.js && node create-placeholder-images.js",
+    "rr-prepare:gigs": "node src/mdToJson.js "
   },
   "eslintConfig": {
     "extends": "react-app"

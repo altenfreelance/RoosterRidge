@@ -5,20 +5,20 @@ import ProgressiveImage from "react-progressive-graceful-image";
 
 export default function RRImage(props) {
 
-    const [src, setSource] = useState("")
+    const [imgSrc, setImgSrc] = useState("")
     const [placeholderSrc, setPlaceholderSrc] = useState("")
-    const [loading, setLoading] = useState(true)
+    const [sourcesLoading, setSourcesLoading] = useState(true)
 
     useEffect(() => {
-        setSource(props.src)
+        setImgSrc(props.src)
         setPlaceholderSrc(getPlaceholderSrc(props.src))
-        setLoading(false)
+        setSourcesLoading(false)
     }, [props.src])
 
     return (
         <>
-            {!loading && <ProgressiveImage
-                src={src}
+            {!sourcesLoading && <ProgressiveImage
+                src={imgSrc}
                 placeholder={placeholderSrc}
             >
                 {(src, loading) => <img {...props} src={src} alt={props.alt} style={{
