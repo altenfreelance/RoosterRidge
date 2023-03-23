@@ -14,7 +14,7 @@ export default function MediaKit() {
             <Helmet>
                 <title>RR - Gallery</title>
             </Helmet>
-            <h1>Gallery / Press Kit</h1>
+            <h1>Gallery</h1>
             <p>
                 <a href="/contact">
                     Contact Rooster Ridge
