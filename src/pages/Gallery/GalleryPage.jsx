@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Helmet } from "react-helmet";
 import PhotoGallery from './PhotoGallery';
-import data from "./parsed-media-kit.json"
+import data from "./parsed-gallery.json"
 import SocialIcons from '../Footer/SocialIcons';
 
 export default function MediaKit() {
@@ -12,9 +12,9 @@ export default function MediaKit() {
     return (
         <div>
             <Helmet>
-                <title>RR - Media Kit</title>
+                <title>RR - Gallery</title>
             </Helmet>
-            <h1>Media Kit</h1>
+            <h1>Gallery</h1>
             <p>
                 <a href="/contact">
                     Contact Rooster Ridge

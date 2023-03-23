@@ -3,7 +3,7 @@ import "./index.css";
 import Footer from "./pages/Footer/Footer";
 import Members from "./pages/Members/Members";
 import NavHeader from "./pages/Nav/NavHeader";
-import MediaKit from "./pages/MediaKit/MediaKit";
+import GalleryPage from "./pages/Gallery/GalleryPage";
 
 import {
   Route,
@@ -61,8 +61,8 @@ function App() {
             <Route exact path="/music/chicken-scratch">
               <ChickenScratchCredits />
             </Route>
-            <Route exact path="/media-kit">
-              <MediaKit />
+            <Route exact path="/gallery">
+              <GalleryPage />
             </Route>
             <Route path="*">
               <Redirect to="/shows" />

@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "rr-prepare": "yarn run rr-prepare:images && yarn run rr-prepare:gigs",
-    "rr-prepare:images": " rm -rf public/images/compressed/** && rm -rf images-temp/** && mv public/images/** images-temp/. && node compress-images.js && node create-placeholder-images.js && node prepare-media-kit.js",
+    "rr-prepare:images": " rm -rf public/images/compressed/** && rm -rf images-temp/** && mv public/images/** images-temp/. && node compress-images.js && node create-placeholder-images.js && node prepare-gallery.js",
     "rr-prepare:gigs": "node prepare-gigs.js "
   },
   "eslintConfig": {
