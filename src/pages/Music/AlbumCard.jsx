@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import RRImage from "../../components/RRImage";
 
 export default class AlbumCard extends Component {
   render() {
@@ -59,7 +60,7 @@ export default class AlbumCard extends Component {
 
             <div className="row">
               <div className="col-sm-6"> <figure>
-                <img
+                <RRImage
                   src={front_img_url}
                   alt={name}
                   style={{ width: "100%" }}
@@ -67,7 +68,7 @@ export default class AlbumCard extends Component {
                 />
               </figure></div>
               <div className="col-sm-6"> <figure>
-                <img
+                <RRImage
                   src={back_img_url}
                   alt={name}
                   style={{ width: "100%" }}

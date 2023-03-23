@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import RRImage from "../../components/RRImage";
 import "./member.css";
 
 export default class Member extends Component {
@@ -13,8 +14,8 @@ export default class Member extends Component {
             </h4>
             <p>{instrument}</p>
           </div>
-          <img src={img_url} alt={name} className="rounded-circle" style={{ width: "100%" }} />
-          </div>
+          <RRImage src={img_url} alt={name} className="rounded-circle" style={{ width: "100%" }} />
+        </div>
       </div>
     );
   }
