@@ -23,6 +23,9 @@ export default class NavHeader extends Component {
             <NavLink to="/music" activeClassName="active" replace>
               Music
             </NavLink>
+            <NavLink to="/media-kit" activeClassName="active" replace>
+              Media Kit
+            </NavLink>
           </nav>
         </div>
       </header>
