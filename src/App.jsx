@@ -15,6 +15,7 @@ import Contact from "./pages/Contact/Contact";
 import Music from "./pages/Music/Music";
 import Bio from "./pages/Home/Bio";
 import ChickenScratchCredits from "./pages/Music/Albums/ChickenScratch/ChickenScratchCredits";
+import RRImage from "./components/RRImage";
 
 function App() {
   const logo_img = '/images/RR.jpg';
@@ -31,11 +32,12 @@ function App() {
         className="cover-container text-center d-flex w-100 h-100 mx-auto flex-column">
         <Router>
           <NavHeader />
-          <img
+          <RRImage
             className="logo-circle"
             alt="Rooster Ridge"
             src={logo_img}
           />
+
           <Switch>
             <Route exact path="/">
               <Redirect to="/shows" />

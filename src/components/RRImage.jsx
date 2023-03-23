@@ -21,7 +21,12 @@ export default function RRImage(props) {
                 src={src}
                 placeholder={placeholderSrc}
             >
-                {(src) => < img {...props} src={src} />}
+                {(src, loading) => <img {...props} src={src} alt={props.alt} style={{
+                    ...props.style,
+                    ...{
+                        filter: loading ? 'blur(7px)' : '',
+                    }
+                }} />}
             </ProgressiveImage>}
         </>
 
@@ -29,5 +34,5 @@ export default function RRImage(props) {
 }
 
 function getPlaceholderSrc(src) {
-    return src.replace('images/', 'images/tiny/');
+    return src.replace('images/', 'images/compressed/');
 }

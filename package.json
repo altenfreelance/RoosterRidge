@@ -20,11 +20,11 @@
     "react-scripts": "^3.4.0"
   },
   "scripts": {
-    "start": "rm -rf public/images/tiny/** && yarn run rr-prepare && react-scripts start",
-    "build": "node src/mdToJson.js && react-scripts build",
+    "start": " yarn run rr-prepare && react-scripts start",
+    "build": "yarn run rr-prepare && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "rr-prepare": "node src/mdToJson.js && node compress-images.js"
+    "rr-prepare": "rm -rf public/images/compressed/** && node src/mdToJson.js && node compress-images.js"
   },
   "eslintConfig": {
     "extends": "react-app"
