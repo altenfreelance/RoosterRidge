@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.1.1",
-    "@testing-library/react": "^9.4.1"
+    "@testing-library/react": "^12.1.5"
   }
 }
