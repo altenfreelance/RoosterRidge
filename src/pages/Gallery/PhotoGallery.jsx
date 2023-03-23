@@ -7,7 +7,7 @@ export default function PhotoGallery({ images }) {
         <>
             <div className="row">
                 {images.map((image, i) => (
-                    <React.Fragment key={`media-kit-${i}`}>
+                    <React.Fragment key={`gallery-${i}`}>
                         <div className="col-sm-6 p-3">
                             <div>
                                 <div className="container">
