@@ -95,3 +95,6 @@ public/images/compressed/*
 log/*
 
 images-temp/**
+
+src/pages/Events/parsed-events.json
+src/pages/MediaKit/parsed-media-kit.json
