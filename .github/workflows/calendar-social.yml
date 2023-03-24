@@ -29,6 +29,7 @@ jobs:
         env:
           CI: true
           CHAT_GPT_API_KEY: ${{ secrets.CHAT_GPT_API_KEY }}
+          CHAT_GPT_ORG: ${{ secrets.CHAT_GPT_ORG }}
 
       - name: Send Calendar Invite to RR Gmail
         if: steps.changed-files-specific.outputs.any_changed == 'true'
