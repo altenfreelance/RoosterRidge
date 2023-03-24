@@ -8,11 +8,12 @@ nvm https://github.com/nvm-sh/nvm#installing-and-updating
 
 run `nvm use`
 
+## Env Vars for Github Actions
+`CHAT_GPT_API_KEY` needs to be set in github env for social media automation.
+Email automation requires `MAIL_PASSWORD` and `MAIL_USERNAME` to be setup also in github
+
 ## To compress image
-
-TODO
-
-
+Images are automatically compressed when the website is built. Any images in /public/images are compressed automatically once maintaining quality and once minifying quality. Quality images are loaded in background and a blurred low quality version shows up until they are downloaded in the browser.
 ## calendar-invite-and-social-post.js
 ```sh
 # Instal ncc
