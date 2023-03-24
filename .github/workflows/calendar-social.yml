@@ -26,6 +26,9 @@ jobs:
         id: EventOutput
         with:
           file-name: '${{ steps.changed-files-specific.outputs.all_changed_files }}'
+        env:
+          CI: true
+          CHAT_GPT_API_KEY: ${{ secrets.CHAT_GPT_API_KEY }}
 
       - name: Send Calendar Invite to RR Gmail
         if: steps.changed-files-specific.outputs.any_changed == 'true'

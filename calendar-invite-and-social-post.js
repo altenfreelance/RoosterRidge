@@ -3,12 +3,21 @@ const md = require('md-yaml-json');
 const ics = require('ics')
 const { writeFileSync } = require('fs')
 
+const fetch = require('node-fetch');
+
+// Set the API endpoint URL and your API key
+
+// CHAT GPT
+const apiUrl = 'https://api.openai.com/v1/chat/completions';
+const NUMBER_OF_SUGGESTIONS = 3;
+
+require('dotenv').config()
+const apiKey = process.env.CHAT_GPT_API_KEY;
+const maxTokens = 100;
 
 // const github = require('@actions/github');
 // const path = require("path");
 const { resolve } = require('path');
-
-
 
 try {
     // `file-name` input defined in action metadata file
@@ -30,15 +39,39 @@ try {
         day: '2-digit', // "01"       
     });
 
-    const easternTime = dateTime.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit', timeZone: 'America/New_York', })
+    const easternTime = dateTime.toLocaleTimeString('en-US', { hour12: true, hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York', })
 
-    // Output example social media post
-    const socialPosts = [
-        `Howdy Folks, come on down to ${title} on ${easternDate} at ${easternTime} for some great music and fun! See you there!`,
-        `They're back! Make the trip to ${title} on ${easternDate} at ${easternTime} for another show with Rooster Ridge! We cannot wait to see you there!`
-    ]
-    var randomPost = socialPosts[Math.floor(Math.random() * socialPosts.length)];
-    console.log(randomPost)
+    let socialMediaSuggestions = ""
+    // Event Title 
+    socialMediaSuggestions += `${title} \n`
+
+    const event_description_prompt = `Create a concise event  description for the bluegrass band Rooster Ridge playing at ${title} on ${easternDate} at ${easternTime}. Don't use the word unforgettable or ticket and do not use any hashtags.`
+    const event_reminder_prompt = `Create a concise social media reminder post for the bluegrass band Rooster Ridge playing at ${title} on ${easternDate} at ${easternTime}. Don't use the word unforgettable or ticket and do not use any hashtags.`
+
+    fetch(apiUrl, getRequestInit(event_description_prompt))
+        .then(res => res.json())
+        .then(data => {
+            const event_descriptions = data.choices.map((choice) => choice.message.content)
+            fetch(apiUrl, getRequestInit(event_reminder_prompt))
+                .then(res => res.json())
+                .then(data => {
+                    const event_reminders = data.choices.map((choice) => choice.message.content)
+
+                    console.log("event_reminders: ", event_reminders)
+                    console.log("event_descriptions: ", event_descriptions)
+                    socialMediaSuggestions += `Suggested Event Descriptions: \n ${event_descriptions.join("\n")}`
+                    socialMediaSuggestions += `\n\nSuggested Reminder Posts: \n ${event_reminders.join("\n")}`
+
+                    socialMediaSuggestions += `\n\n\n\n NOTE: GHAT GPT Prompts used to generate suggestions\n`
+                    socialMediaSuggestions += `Event Description Prompt: ${event_description_prompt}`
+                    socialMediaSuggestions += `Reminder Post Prompt: ${event_reminder_prompt}`
+
+                    core.setOutput("social_suggestion", socialMediaSuggestions)
+                })
+                .catch(err => console.error(err));
+        })
+        .catch(err => console.error(err));
+
 
     const event = {
         start: [
@@ -72,14 +105,31 @@ try {
         const calPath = `${__dirname}/event.ics`
         console.log(value, calPath)
         writeFileSync(calPath, value)
-
-        core.setOutput("gig_title", title)
-        core.setOutput("social_suggestion", randomPost)
     })
 
+    core.setOutput("gig_title", title)
 
 
 } catch (error) {
     core.setFailed(error.message);
 }
 
+
+function getRequestInit(prompt) {
+    return {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`,
+            "OpenAI-Organization": "org-lccZwtTCLE1PchHazO6BlYrI"
+        },
+        body: JSON.stringify({
+            "model": "gpt-3.5-turbo",
+            "messages": [{ "role": "user", "content": prompt }],
+            "temperature": 0.7,
+            "n": NUMBER_OF_SUGGESTIONS,
+            "max_tokens": maxTokens
+        }
+        )
+    }
+}
