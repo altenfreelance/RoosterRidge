@@ -9,7 +9,7 @@ nvm https://github.com/nvm-sh/nvm#installing-and-updating
 run `nvm use`
 
 ## Env Vars for Github Actions
-`CHAT_GPT_API_KEY` needs to be set in github env for social media automation.
+`CHAT_GPT_API_KEY` and `CHAT_GPT_ORG` needs to be set in github env for social media automation.
 Email automation requires `MAIL_PASSWORD` and `MAIL_USERNAME` to be setup also in github
 
 ## To compress image
