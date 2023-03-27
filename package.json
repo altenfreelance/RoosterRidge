@@ -8,7 +8,7 @@
     "@iconify/react": "^3.2.1",
     "compress-images": "^2.0.5",
     "dotenv": "^16.0.3",
-    "gifsicle": "5.2.1",
+    "gifsicle": "7.0.1",
     "ics": "^2.40.0",
     "md-yaml-json": "^1.1.1",
     "node-fetch": "2",
