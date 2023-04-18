@@ -1,5 +1,5 @@
 ---
-title: Loveland Concert in the Park
+title: Loveland Concert in the Park 
 gigDateTime: 2023-08-13T22:00:10.802Z
 address: 126 Karl Brown Way, Loveland, OH 45140
 caption: ""
