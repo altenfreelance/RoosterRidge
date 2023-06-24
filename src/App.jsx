@@ -64,6 +64,10 @@ function App() {
             <Route exact path="/gallery">
               <GalleryPage />
             </Route>
+            {/* QR code on business card*/}
+            <Route path="/qr">
+              <Redirect to="/contact" />
+            </Route>
             <Route path="*">
               <Redirect to="/shows" />
             </Route>
