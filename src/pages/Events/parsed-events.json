@@ -1,87 +1,36 @@
 [
   {
     "meta": {
-      "title": "American Legion ",
-      "gigDateTime": "2023-03-05T00:00:43.654Z",
-      "address": "897 Oakland Rd, Loveland, OH 45140",
-      "caption": "American Legion in Loveland is open to the public on Saturday, March 4th!",
-      "thumbnail": "/images/uploads/american-legion-logo-350-288x300.png",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/american-legion.md",
-      "mtime": "2023-03-29T14:35:44.333Z",
-      "birthtime": "2023-03-29T14:35:44.333Z"
-    },
-    "html": ""
-  },
-  {
-    "meta": {
       "title": "Arnold's Bar and Grill",
-      "gigDateTime": "2022-10-23T00:00:00.000Z",
+      "gigDateTime": "2023-10-22T00:00:46.248Z",
       "address": "210 E 8th St, Cincinnati, OH 45202",
       "thumbnail": "/images/uploads/Arnolds-8-11.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill-3.md",
-      "mtime": "2023-03-29T14:35:44.333Z",
-      "birthtime": "2023-03-29T14:35:44.333Z"
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill.md",
+      "mtime": "2023-06-24T16:57:35.043Z",
+      "birthtime": "2023-06-24T16:57:35.043Z"
     },
     "html": ""
   },
   {
     "meta": {
-      "title": "Arnold's Bar and Grill",
-      "gigDateTime": "2022-12-18T01:00:01.379Z",
-      "address": "210 E 8th St, Cincinnati, OH 45202",
-      "thumbnail": "/images/uploads/ArnoldsAlleyWay.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill-4.md",
-      "mtime": "2023-03-29T14:35:44.334Z",
-      "birthtime": "2023-03-29T14:35:44.333Z"
-    },
-    "html": ""
-  },
-  {
-    "meta": {
-      "title": "(Canceled by Venue) Bishop's Quarter Rooftop",
-      "gigDateTime": "2022-09-25T00:00:46.021Z",
-      "address": "",
-      "caption": "",
-      "thumbnail": "/images/uploads/BQ.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/bishops-quarter-rooftop.md",
-      "mtime": "2023-03-29T14:35:44.334Z",
-      "birthtime": "2023-03-29T14:35:44.334Z"
-    },
-    "html": ""
-  },
-  {
-    "meta": {
-      "title": "Cappy's",
-      "gigDateTime": "2023-04-08T23:30:52.991Z",
-      "address": "309 W Loveland Ave, Loveland, OH 45140",
-      "caption": "",
-      "thumbnail": "/images/uploads/cappys_outdoors.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-1.md",
-      "mtime": "2023-03-29T14:35:44.334Z",
-      "birthtime": "2023-03-29T14:35:44.334Z"
-    },
-    "html": ""
-  },
-  {
-    "meta": {
-      "title": "Cappy's",
+      "title": "Cappy's Wine and Spirits",
       "gigDateTime": "2023-09-09T23:00:48.488Z",
       "address": "309 W Loveland Ave, Loveland, OH 45140",
       "thumbnail": "/images/uploads/cappys_outdoors.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-2.md",
-      "mtime": "2023-03-29T14:35:44.334Z",
+      "mtime": "2023-04-18T16:28:29.642Z",
       "birthtime": "2023-03-29T14:35:44.334Z"
     },
     "html": ""
   },
   {
     "meta": {
-      "title": "Cappy's",
+      "title": "Cappy's Wine and Spirits",
       "gigDateTime": "2023-11-26T00:00:51.007Z",
       "address": "309 W Loveland Ave, Loveland, OH 45140",
       "thumbnail": "/images/uploads/cappys.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-3.md",
-      "mtime": "2023-03-29T14:35:44.335Z",
+      "mtime": "2023-04-18T16:31:20.381Z",
       "birthtime": "2023-03-29T14:35:44.335Z"
     },
     "html": ""
@@ -93,58 +42,19 @@
       "address": "309 W Loveland Ave, Loveland, OH 45140",
       "thumbnail": "/images/uploads/cappys.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-wine-and-spirits.md",
-      "mtime": "2023-03-29T14:35:44.335Z",
+      "mtime": "2023-04-18T16:24:19.247Z",
       "birthtime": "2023-03-29T14:35:44.335Z"
     },
     "html": ""
   },
   {
     "meta": {
-      "title": "Cappy's",
-      "gigDateTime": "2023-02-12T01:00:47.303Z",
-      "address": "309 W Loveland Ave, Loveland, OH 45140",
-      "caption": "Come join Rooster Ridge at Cappy's for Valentine's Day weekend in downtown Loveland!",
-      "thumbnail": "/images/uploads/cappys.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys.md",
-      "mtime": "2023-03-29T14:35:44.335Z",
-      "birthtime": "2023-03-29T14:35:44.335Z"
-    },
-    "html": ""
-  },
-  {
-    "meta": {
-      "title": "Cappy’s Wine and Spirits",
-      "gigDateTime": "2022-10-29T23:30:46.855Z",
-      "address": "309 W Loveland Ave, Loveland, OH 45140",
-      "caption": "Halloween Weekend in Loveland!",
-      "thumbnail": "/images/uploads/cappys_outdoors.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappy’s-wine-and-spirits-2.md",
-      "mtime": "2023-03-29T14:35:44.335Z",
-      "birthtime": "2023-03-29T14:35:44.335Z"
-    },
-    "html": ""
-  },
-  {
-    "meta": {
-      "title": "Cappy’s Wine and Spirits",
-      "gigDateTime": "2023-01-01T01:30:55.074Z",
-      "address": "309 W. Loveland ave",
-      "caption": "Celebrate New Years Eve with Rooster Ridge!",
-      "thumbnail": "/images/uploads/cappys.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappy’s-wine-and-spirits-3.md",
-      "mtime": "2023-03-29T14:35:44.336Z",
-      "birthtime": "2023-03-29T14:35:44.336Z"
-    },
-    "html": ""
-  },
-  {
-    "meta": {
-      "title": "Halloween at Cappy's Wine and Spirits",
+      "title": "Halloween @ Cappy's Wine and Spirits",
       "gigDateTime": "2023-10-28T23:00:23.600Z",
       "address": "309 W Loveland Ave, Loveland, OH 45140",
       "thumbnail": "/images/uploads/cappys.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/halloween-at-cappys-wine-and-spirits.md",
-      "mtime": "2023-03-29T14:35:44.336Z",
+      "mtime": "2023-04-18T16:29:09.585Z",
       "birthtime": "2023-03-29T14:35:44.336Z"
     },
     "html": ""
@@ -156,7 +66,7 @@
       "address": "Downtown Lebanon, OH",
       "thumbnail": "/images/uploads/logo.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/lebanon-country-music-festival.md",
-      "mtime": "2023-03-29T14:35:44.336Z",
+      "mtime": "2023-04-18T16:27:25.731Z",
       "birthtime": "2023-03-29T14:35:44.336Z"
     },
     "html": ""
@@ -169,19 +79,7 @@
       "caption": "",
       "thumbnail": "/images/uploads/rr_nisbet1.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/loveland-concert-in-the-park.md",
-      "mtime": "2023-03-29T14:35:44.336Z",
-      "birthtime": "2023-03-29T14:35:44.336Z"
-    },
-    "html": ""
-  },
-  {
-    "meta": {
-      "title": "Macadu's",
-      "gigDateTime": "2022-10-16T00:00:48.563Z",
-      "address": "921 OH-28, Milford, OH 45150",
-      "thumbnail": "/images/uploads/macadus.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/macadus.md",
-      "mtime": "2023-03-29T14:35:44.336Z",
+      "mtime": "2023-04-18T16:28:08.773Z",
       "birthtime": "2023-03-29T14:35:44.336Z"
     },
     "html": ""
@@ -193,8 +91,21 @@
       "caption": "Hosted by Hop's and Berry, Trailside Cafe, and The City of Loveland (Music from 5-9)",
       "thumbnail": "/images/uploads/img_20230308_084037.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/oktoberfest-in-loveland.md",
-      "mtime": "2023-03-29T14:35:44.336Z",
+      "mtime": "2023-04-18T16:28:45.912Z",
       "birthtime": "2023-03-29T14:35:44.336Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Play In The Park",
+      "gigDateTime": "2023-06-21T22:30:13.187Z",
+      "address": "Kennedy Heights Park, 6039 Kennedy Ave, Cincinnati, OH 45213",
+      "caption": "https://www.facebook.com/playintheparkcincinnati/",
+      "thumbnail": "/images/uploads/20220904_184112.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/play-in-the-park.md",
+      "mtime": "2023-04-18T15:36:24.793Z",
+      "birthtime": "2023-04-18T15:36:24.793Z"
     },
     "html": ""
   },
@@ -225,11 +136,11 @@
   {
     "meta": {
       "title": "Private Event",
-      "gigDateTime": "2023-03-15T23:00:11.515Z",
-      "thumbnail": "/images/uploads/AtTheRidge.png",
+      "gigDateTime": "2023-08-05T23:00:58.813Z",
+      "thumbnail": "/images/uploads/RR-Promo-SQ2.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/private-event.md",
-      "mtime": "2023-03-29T14:35:44.338Z",
-      "birthtime": "2023-03-29T14:35:44.338Z"
+      "mtime": "2023-06-24T16:57:35.044Z",
+      "birthtime": "2023-06-24T16:57:35.043Z"
     },
     "html": ""
   }
