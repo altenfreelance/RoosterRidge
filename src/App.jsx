@@ -25,7 +25,7 @@ function App() {
   const [easterEggCounter, settEasterEggCounter] = useState(0);
   // Launch CMS
   useEffect(() => {
-    if (easterEggCounter > 0 && easterEggCounter % 10 == 0) {
+    if (easterEggCounter > 0 && easterEggCounter % 10 === 0) {
       window.location = "/admin"
     }
 
