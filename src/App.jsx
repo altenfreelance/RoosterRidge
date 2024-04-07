@@ -4,6 +4,7 @@ import Footer from "./pages/Footer/Footer";
 import Members from "./pages/Members/Members";
 import NavHeader from "./pages/Nav/NavHeader";
 import GalleryPage from "./pages/Gallery/GalleryPage";
+import { useEffect, useState } from "react";
 
 import {
   Route,
@@ -20,6 +21,16 @@ import RRImage from "./components/RRImage";
 
 function App() {
   const logo_img = '/images/RR.jpg';
+
+  const [easterEggCounter, settEasterEggCounter] = useState(0);
+  // Launch CMS
+  useEffect(() => {
+    if (easterEggCounter > 0 && easterEggCounter % 10 == 0) {
+      window.location = "/admin"
+    }
+
+  }, [easterEggCounter])
+
   return (
     <div
       style={{
@@ -33,11 +44,15 @@ function App() {
         className="cover-container text-center d-flex w-100 h-100 mx-auto flex-column">
         <Router>
           <NavHeader />
-          <RRImage
-            className="logo-circle"
-            alt="Rooster Ridge"
-            src={logo_img}
-          />
+          <button style={{ display: "contents" }} onClick={() => {
+            settEasterEggCounter(easterEggCounter + 1)
+          }}>
+            <RRImage
+              className="logo-circle"
+              alt="Rooster Ridge"
+              src={logo_img}
+            />
+          </button>
 
           <Switch>
             <Route exact path="/">

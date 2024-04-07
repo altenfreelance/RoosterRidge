@@ -2,12 +2,37 @@
   {
     "meta": {
       "title": "Arnold's Bar and Grill",
-      "gigDateTime": "2023-10-22T00:00:46.248Z",
+      "gigDateTime": "2024-11-17T01:00:46.248Z",
       "address": "210 E 8th St, Cincinnati, OH 45202",
       "thumbnail": "/images/uploads/Arnolds-8-11.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/arnolds-bar-and-grill.md",
-      "mtime": "2023-06-24T16:57:35.043Z",
+      "mtime": "2024-04-07T00:19:46.720Z",
       "birthtime": "2023-06-24T16:57:35.043Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Branch Hill VFW",
+      "gigDateTime": "2024-07-13T22:00:07.972Z",
+      "address": "6653 Epworth Rd, Loveland, OH 45140",
+      "caption": "Open to the public!",
+      "thumbnail": "https://www.veterans.nd.gov/sites/www/files/documents/logo/vfwlogo_1.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/branch-hill-vfw.md",
+      "mtime": "2024-04-07T00:19:46.721Z",
+      "birthtime": "2024-04-07T00:19:46.720Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Cappy's ",
+      "gigDateTime": "2024-06-22T23:30:00.773Z",
+      "address": "309 W Loveland Ave, Loveland, OH 45140",
+      "thumbnail": "/images/uploads/20230520_204945.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-1.md",
+      "mtime": "2024-01-05T15:08:36.291Z",
+      "birthtime": "2024-01-05T15:08:36.291Z"
     },
     "html": ""
   },
@@ -16,9 +41,9 @@
       "title": "Cappy's Wine and Spirits",
       "gigDateTime": "2023-09-09T23:00:48.488Z",
       "address": "309 W Loveland Ave, Loveland, OH 45140",
-      "thumbnail": "/images/uploads/cappys_outdoors.jpg",
+      "thumbnail": "/images/uploads/20230520_214904.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-2.md",
-      "mtime": "2023-04-18T16:28:29.642Z",
+      "mtime": "2024-01-05T15:08:36.292Z",
       "birthtime": "2023-03-29T14:35:44.334Z"
     },
     "html": ""
@@ -26,24 +51,74 @@
   {
     "meta": {
       "title": "Cappy's Wine and Spirits",
-      "gigDateTime": "2023-11-26T00:00:51.007Z",
+      "gigDateTime": "2023-12-03T00:00:51.007Z",
       "address": "309 W Loveland Ave, Loveland, OH 45140",
       "thumbnail": "/images/uploads/cappys.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-3.md",
-      "mtime": "2023-04-18T16:31:20.381Z",
+      "mtime": "2023-09-03T18:10:33.607Z",
       "birthtime": "2023-03-29T14:35:44.335Z"
     },
     "html": ""
   },
   {
     "meta": {
-      "title": "Cappy's Wine and Spirits",
-      "gigDateTime": "2023-05-20T23:00:31.583Z",
+      "title": "Cappy's ",
+      "gigDateTime": "2024-08-31T23:30:44.072Z",
+      "address": "309 W Loveland Ave, Loveland, OH 45140",
+      "thumbnail": "/images/uploads/cappys_outdoors.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-4.md",
+      "mtime": "2024-04-07T00:19:46.722Z",
+      "birthtime": "2024-01-05T15:08:36.292Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Cappy's ",
+      "gigDateTime": "2024-10-19T23:30:41.090Z",
       "address": "309 W Loveland Ave, Loveland, OH 45140",
       "thumbnail": "/images/uploads/cappys.jpg",
-      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-wine-and-spirits.md",
-      "mtime": "2023-04-18T16:24:19.247Z",
-      "birthtime": "2023-03-29T14:35:44.335Z"
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-5.md",
+      "mtime": "2024-01-05T15:08:36.293Z",
+      "birthtime": "2024-01-05T15:08:36.293Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Cappy's ",
+      "gigDateTime": "2024-12-14T00:30:41.315Z",
+      "address": "309 W Loveland Ave, Loveland, OH 45140",
+      "thumbnail": "/images/uploads/20230520_214904.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys-6.md",
+      "mtime": "2024-04-07T00:19:46.723Z",
+      "birthtime": "2024-01-05T15:08:36.293Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Cappy's",
+      "gigDateTime": "2024-05-04T23:30:45.590Z",
+      "address": "309 W Loveland Ave, Loveland, OH 45140",
+      "caption": "",
+      "thumbnail": "/images/uploads/cappys.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/cappys.md",
+      "mtime": "2024-01-05T15:08:36.294Z",
+      "birthtime": "2024-01-05T15:08:36.294Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "(Postponed) Families without Fathers (FWF) Fundraiser & Silent Auction",
+      "gigDateTime": "2023-10-22T17:00:09.253Z",
+      "address": "125 S Karl Brown Wy A, Loveland, OH 45140",
+      "caption": "Come support a great cause. This event is hosted at Cindy's Friendly Tavern. This event starts at 1, music starts at 3. For more information please see FWF Facebook page! https://www.facebook.com/profile.php?id=61551064167523",
+      "thumbnail": "/images/uploads/fwf.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/families-without-fathers-fwf-fundraiser-silent-auction.md",
+      "mtime": "2024-01-05T15:08:36.294Z",
+      "birthtime": "2024-01-05T15:08:36.294Z"
     },
     "html": ""
   },
@@ -73,6 +148,19 @@
   },
   {
     "meta": {
+      "title": "Loveland American Legion",
+      "gigDateTime": "2024-06-08T23:00:47.983Z",
+      "address": "897 Oakland Rd, Loveland, OH 45140",
+      "caption": "Open to the public!",
+      "thumbnail": "/images/uploads/american-legion-logo-350-288x300.png",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/loveland-american-legion.md",
+      "mtime": "2024-04-07T00:19:46.723Z",
+      "birthtime": "2024-01-05T15:08:36.294Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
       "title": "Loveland Concert in the Park",
       "gigDateTime": "2023-08-13T22:00:10.802Z",
       "address": "126 Karl Brown Way, Loveland, OH 45140",
@@ -86,25 +174,51 @@
   },
   {
     "meta": {
-      "title": "Oktoberfest in Loveland",
-      "gigDateTime": "2023-09-23T21:00:07.445Z",
-      "caption": "Hosted by Hop's and Berry, Trailside Cafe, and The City of Loveland (Music from 5-9)",
-      "thumbnail": "/images/uploads/img_20230308_084037.jpg",
+      "title": "Milford American Legion",
+      "gigDateTime": "2024-07-12T23:00:40.567Z",
+      "address": "111 Victor Stier Dr, Milford, OH 45150",
+      "caption": "Open to the public!",
+      "thumbnail": "/images/uploads/american-legion-logo-350-288x300.png",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/milford-american-legion.md",
+      "mtime": "2024-04-07T00:19:46.724Z",
+      "birthtime": "2024-01-05T15:08:36.295Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Oktoberfest @ Hops and Berry Taproom in Loveland",
+      "gigDateTime": "2023-09-23T20:00:07.445Z",
+      "address": "118 S Karl Brown Wy, Loveland, OH 45140",
+      "caption": "Hosted by Hop's and Berry, Trailside Cafe, and The City of Loveland (Music from 4-7)",
+      "thumbnail": "/images/uploads/20230621_190156.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/oktoberfest-in-loveland.md",
-      "mtime": "2023-04-18T16:28:45.912Z",
+      "mtime": "2023-09-03T18:10:33.608Z",
       "birthtime": "2023-03-29T14:35:44.336Z"
     },
     "html": ""
   },
   {
     "meta": {
+      "title": "Plain Folk Cafe",
+      "gigDateTime": "2024-04-27T23:30:36.618Z",
+      "address": "10177 OH-132, Pleasant Plain, OH 45162",
+      "thumbnail": "/images/uploads/dsc_3821.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/plain-folk-cafe.md",
+      "mtime": "2024-04-07T00:19:46.725Z",
+      "birthtime": "2023-09-03T18:10:33.608Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
       "title": "Play In The Park",
-      "gigDateTime": "2023-06-21T22:30:13.187Z",
+      "gigDateTime": "2024-07-17T22:30:13.187Z",
       "address": "Kennedy Heights Park, 6039 Kennedy Ave, Cincinnati, OH 45213",
-      "caption": "https://www.facebook.com/playintheparkcincinnati/",
-      "thumbnail": "/images/uploads/20220904_184112.jpg",
+      "caption": "",
+      "thumbnail": "/images/uploads/20230621_190156.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/play-in-the-park.md",
-      "mtime": "2023-04-18T15:36:24.793Z",
+      "mtime": "2024-04-07T00:19:46.725Z",
       "birthtime": "2023-04-18T15:36:24.793Z"
     },
     "html": ""
@@ -136,11 +250,36 @@
   {
     "meta": {
       "title": "Private Event",
-      "gigDateTime": "2023-08-05T23:00:58.813Z",
-      "thumbnail": "/images/uploads/RR-Promo-SQ2.jpg",
+      "gigDateTime": "2024-05-25T23:00:51.141Z",
+      "thumbnail": "/images/uploads/20220904_184112.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/private-event-3.md",
+      "mtime": "2024-04-07T00:19:46.726Z",
+      "birthtime": "2024-04-07T00:19:46.726Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Turquoise Star Launch Party",
+      "gigDateTime": "2023-09-16T23:30:17.137Z",
+      "address": " 10668 Dallasburg Rd, Loveland, OH 45140-9670, United States",
+      "caption": "https://fb.me/e/XemwooCO",
+      "thumbnail": "/images/uploads/368340022_10230877135220710_3672019590469041297_n.jpg",
       "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/private-event.md",
-      "mtime": "2023-06-24T16:57:35.044Z",
+      "mtime": "2023-09-03T18:10:33.610Z",
       "birthtime": "2023-06-24T16:57:35.043Z"
+    },
+    "html": ""
+  },
+  {
+    "meta": {
+      "title": "Valentine's day Celebration at Cappy's ",
+      "gigDateTime": "2024-02-11T00:30:52.288Z",
+      "address": "309 W Loveland Ave, Loveland, OH 45140",
+      "thumbnail": "/images/uploads/img_20230308_084037.jpg",
+      "path": "C:\\Users\\Aalte\\repos\\RoosterRidge\\events/valentines-day-celebration-at-cappys.md",
+      "mtime": "2024-01-05T15:08:36.296Z",
+      "birthtime": "2024-01-05T15:08:36.295Z"
     },
     "html": ""
   }
