@@ -36,6 +36,13 @@ ncc build monthly-update.js --license licenses.txt --out dist/monthly-update
 # Which creates or updates dist/index.js (used in action.yml)
 ```
 
+# Content / Event Management
+Netlify CMS is located at https://www.roosterridgeofficial.com/admin
+
+## Add a content manager
+https://app.netlify.com/sites/roosterridge/integrations/identity/netlify
+
+_____
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
