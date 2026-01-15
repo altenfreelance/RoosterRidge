@@ -1,6 +1,6 @@
 ---
 title: Cappy's Taproom and Bottle Shop
-gigDateTime: 2025-04-26T23:30:29.774Z
+gigDateTime: 2026-06-27T19:30:00.000Z
 address: 309 W Loveland Ave, Loveland, OH 45140
-thumbnail: /images/uploads/cappys.jpg
+thumbnail: /images/uploads/20230520_214904.jpg
 ---
