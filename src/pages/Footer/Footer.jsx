@@ -7,11 +7,10 @@ export default class Footer extends Component {
     return (
       <footer className="mastfoot mt-auto"
         style={{
-          backgroundColor: 'rgba(128,0,0, 0.8)',
           position: 'fixed',
           bottom: '0',
           left: '0',
-          hieght: '2.5rem',
+          height: '3rem',
           right: '0'
         }}>
         <SocialIcons />

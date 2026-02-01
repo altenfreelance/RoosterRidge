@@ -8,7 +8,7 @@ export default function Bio() {
                 <title>Rooster Ridge</title>
             </Helmet>
             <h1>About the Band</h1>
-            <div style={{ color: "white" }} className="py-4 px-5">
+            <div className="py-4 px-5">
                 <p>
                     Blending cutting-edge bluegrass and folk with the dulcet tones of traditional Americana, Rooster Ridge is an ascendant voice in the Ohio
                     music scene.  Reminiscent of classic groups like The Band, The Stanley Brothers, Nitty Gritty Dirt Band, and more recently Old Crow
