@@ -1,19 +1,39 @@
 # Rooster Ridge
 
-## Preqs
+## Prerequisites
 
-yarn
-node
-nvm https://github.com/nvm-sh/nvm#installing-and-updating 
+- yarn
+- node
+- nvm https://github.com/nvm-sh/nvm#installing-and-updating
 
-run `nvm use`
+## Getting Started
+
+1. Set the correct Node version:
+```sh
+nvm use
+```
+
+2. Install dependencies (use `--ignore-scripts` to skip incompatible binary builds):
+```sh
+yarn install --ignore-scripts
+```
+
+3. Start the development server:
+```sh
+yarn run rr-prepare
+npx react-scripts start
+```
+
+The app will be available at [http://localhost:3000](http://localhost:3000)
 
 ## Env Vars for Github Actions
 `CHAT_GPT_API_KEY` and `CHAT_GPT_ORG` needs to be set in github env for social media automation.
 Email automation requires `MAIL_PASSWORD` and `MAIL_USERNAME` to be setup also in github
 
-## To compress image
-Images are automatically compressed when the website is built. Any images in /public/images are compressed automatically once maintaining quality and once minifying quality. Quality images are loaded in background and a blurred low quality version shows up until they are downloaded in the browser.
+## Image Processing
+Images are automatically processed when the website is built. During development, images are copied from `images-temp` to `public/images` without compression for cross-platform compatibility. The prepare scripts handle this automatically.
+
+**Note:** Image compression libraries (mozjpeg, pngquant) have been replaced with simple file copying to support all platforms including ARM architectures.
 ## calendar-invite-and-social-post.js
 ```sh
 # Instal ncc
@@ -50,13 +70,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### Starting the Development Server
 
-Runs the app in the development mode.<br />
+Run these commands separately:
+
+```sh
+yarn run rr-prepare
+npx react-scripts start
+```
+
+This runs the app in development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+**Note:** The `rr-prepare` script processes images and prepares the app. Image compression has been replaced with simple file copying for cross-platform compatibility.
 
 ### `yarn test`
 
