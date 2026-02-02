@@ -19,6 +19,13 @@ yarn install --ignore-scripts
 ```
 
 3. Start the development server:
+
+**Quick start (recommended):**
+```sh
+./start-dev.sh
+```
+
+**Or manually:**
 ```sh
 yarn run rr-prepare
 npx react-scripts start
