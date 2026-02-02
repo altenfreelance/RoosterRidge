@@ -10,8 +10,11 @@ export default class Footer extends Component {
           position: 'fixed',
           bottom: '0',
           left: '0',
-          height: '3rem',
-          right: '0'
+          height: '4rem',
+          right: '0',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
         }}>
         <SocialIcons />
       </footer>

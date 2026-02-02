@@ -18,6 +18,16 @@ function Music() {
     );
 }
 
+export const LiveAtCappysAlbumCard = () => <AlbumCard
+    front_img_url="/images/albums/live-at-cappys/Cover.jpg"
+    back_img_url="/images/albums/live-at-cappys/Cover.jpg"
+    name="Bootleg: Live at Cappy's"
+    releaseDate="11/14/2025"
+    spotifyLink="https://open.spotify.com/album/5yVRk4Fsz2AdLXlAf7997B?si=4iKvq89KSR6mSFke7G0o_A"
+    appleMusicLink="https://music.apple.com/us/album/bootleg-live-at-cappys/1853111096"
+    youtubeLink="https://www.youtube.com/watch?v=ev8kxIG-uE4&list=OLAK5uy_lWh2neiBaZFF0UeQaDf4bSTgLIX-3eugQ"
+/>
+
 export const ChickenScratchAlbumCard = (showCreditsUrl = true) => <AlbumCard front_img_url="/images/albums/chicken-scratch/CoverFront.jpg"
     back_img_url="/images/albums/chicken-scratch/CoverBack.jpg"
     name="Chicken Scratch"
@@ -30,6 +40,7 @@ export const ChickenScratchAlbumCard = (showCreditsUrl = true) => <AlbumCard fro
 />
 
 const albumCards = [
+    LiveAtCappysAlbumCard(),
     ChickenScratchAlbumCard()
 ]
 
