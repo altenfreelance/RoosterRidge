@@ -12,7 +12,7 @@ function Music() {
             <h1>Music</h1>
 
             <div className="row">
-                {albumCards.map((album) => <div key={album.props.name}>{album}</div>)}
+                {albumCards.map((album) => <div key={album.props.name} className="mb-5">{album}</div>)}
             </div>
         </div>
     );

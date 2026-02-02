@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
+import RRImage from '../../components/RRImage';
 
 export default function Bio() {
     return (
@@ -8,22 +9,34 @@ export default function Bio() {
                 <title>Rooster Ridge</title>
             </Helmet>
             <h1>About the Band</h1>
+
+            <div className="d-flex justify-content-center my-4">
+                <a href="/music" style={{ maxWidth: "500px", width: "100%", display: "block" }}>
+                    <RRImage
+                        src="/images/albums/live-at-cappys/Cover.jpg"
+                        alt="Rooster Ridge - Live at Cappy's"
+                        style={{ width: "100%", borderRadius: "12px", cursor: "pointer" }}
+                    />
+                </a>
+            </div>
+
             <div className="py-4 px-5">
                 <p>
-                    Blending cutting-edge bluegrass and folk with the dulcet tones of traditional Americana, Rooster Ridge is an ascendant voice in the Ohio
-                    music scene.  Reminiscent of classic groups like The Band, The Stanley Brothers, Nitty Gritty Dirt Band, and more recently Old Crow
-                    Medicine Show, Rooster Ridge brings together superior instrumentation, contagious melodies, harmonies as smooth as Kentucky bourbon,
-                    and lyrics as frank and honest as the countryside to offer a distinctive new sound that still holds firm to its roots.
+                    Born from late-night back-porch jam sessions in Loveland, Ohio, Rooster Ridge has evolved into one of the region's
+                    most captivating bluegrass and folk acts. With roots in traditional Americana and a forward-thinking approach to songwriting,
+                    the band channels the spirit of The Band, Old Crow Medicine Show, and the Nitty Gritty Dirt Band while carving out
+                    their own distinctive groove.
                 </p>
                 <p>
-                    Rooster Ridge was founded in Loveland, Ohio by the Alten Brothers, Jake and Andrew, and Greg Stevens.
-                    Rounding out the group are long time friends Bryce Clawson on vocals and harmonica and Jamie Davidson on vocals and bass.
+                    The Alten Brothers—Jake on guitar and vocals, Andrew on mandolin and dobro—founded Rooster Ridge alongside
+                    Greg Stevens on banjo and fiddle. The lineup comes alive with Bryce Clawson's powerful vocals and harmonica, and Jamie Davidson
+                    laying down the bass and harmony vocals. Together, they've crafted a sound that's equal parts honky-tonk grit and
+                    front-porch soul.
                 </p>
                 <p>
-                    Starting out quite literally as a late-night, back-porch jam session, Rooster Ridge has begun to catch fire, drawing ever larger
-                    crowds and an exploding local fan base as they play a growing universe of venues.  Rooster Ridge thanks all of their supporters
-                    for an exceptional start to what many listeners believe will be a promising and prolific future.  Rooster Ridge invites you to sit
-                    back, relax, and become part of their distinctly American musical journey.
+                    From intimate taprooms to festival stages, Rooster Ridge has built a devoted following through their electrifying <a href="/shows">live shows</a> and authentic storytelling. Their 2022 studio album <em>Chicken Scratch</em> and their latest release, the live album
+                    <em>Bootleg: Live at Cappy's</em>, capture the raw energy and musicianship that make every Rooster Ridge performance unforgettable.
+                    Check out our <a href="/music">music</a>, browse the <a href="/gallery">photo gallery</a>, and <a href="/contact">book us</a> for your next event. Come experience the journey for yourself!
                 </p>
 
             </div>
