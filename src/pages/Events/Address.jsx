@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Address extends Component {
   render() {
     return (
-      <p className="link" onClick={() => this.onMapClick()}>
+      <p className="link" onClick={() => this.onMapClick()} style={{ cursor: "pointer" }}>
         {this.props.address}
       </p>
     );
