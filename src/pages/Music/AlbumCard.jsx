@@ -58,24 +58,42 @@ export default class AlbumCard extends Component {
             </section>
 
 
-            <div className="row">
-              <div className="col-sm-6"> <figure>
-                <RRImage
-                  src={front_img_url}
-                  alt={name}
-                  style={{ width: "100%" }}
-                  caption=""
-                />
-              </figure></div>
-              <div className="col-sm-6"> <figure>
-                <RRImage
-                  src={back_img_url}
-                  alt={name}
-                  style={{ width: "100%" }}
-                  caption=""
-                />
-              </figure></div>
-
+            <div className="row justify-content-center">
+              {front_img_url === back_img_url ? (
+                <div className="col-sm-8 col-md-6">
+                  <figure>
+                    <RRImage
+                      src={front_img_url}
+                      alt={name}
+                      style={{ width: "100%" }}
+                      caption=""
+                    />
+                  </figure>
+                </div>
+              ) : (
+                <>
+                  <div className="col-sm-6">
+                    <figure>
+                      <RRImage
+                        src={front_img_url}
+                        alt={name}
+                        style={{ width: "100%" }}
+                        caption=""
+                      />
+                    </figure>
+                  </div>
+                  <div className="col-sm-6">
+                    <figure>
+                      <RRImage
+                        src={back_img_url}
+                        alt={name}
+                        style={{ width: "100%" }}
+                        caption=""
+                      />
+                    </figure>
+                  </div>
+                </>
+              )}
             </div>
 
 
