@@ -1,34 +1,38 @@
-import React, { Component } from "react";
-import { Helmet } from "react-helmet";
+import React from "react";
+import { Helmet } from "react-helmet-async";
 
-export default class Contact extends Component {
-  render() {
-    return (
-      <div>
-        <Helmet>
-          <title>RR - Contact</title>
-        </Helmet>
-        <h1>Contact</h1>
+export default function Contact() {
+  return (
+    <div>
+      <Helmet>
+        <title>Rooster Ridge - Contact</title>
+      </Helmet>
+      <h1>Get in Touch</h1>
 
-        <div className="py-4 px-5">
-          <h4>Want to Schedule an Event?</h4>
-          <p>
-            If you want to schedule Rooster Ridge or if you have any questions, please reach out to us
-            on{" "}
-            <a href="https://www.facebook.com/RoosterRidgeOfficial/">
-              {" "}
-              Facebook
-            </a>
-            , send us an email at
-            <a href="mailto:roosterridgeofficial@gmail.com">
-              {" "}
-              roosterridgeofficial@gmail.com{" "}
-            </a>
-            or give us a call or text at{" "}
-            <a href="tel:15136000799"> 513-600-0799</a>.
-          </p>
+      <div className="py-4 px-5" style={{ maxWidth: "650px", margin: "0 auto" }}>
+        <p style={{ fontSize: "1.1rem", marginBottom: "2rem" }}>
+          Want to book Rooster Ridge for your next event or just say hey?
+          Reach out any way you like.
+        </p>
+
+        <div style={{ display: "flex", flexDirection: "column", gap: "1rem", alignItems: "center" }}>
+          <a
+            href="mailto:roosterridgeofficial@gmail.com"
+            style={{ fontSize: "1.1rem" }}
+          >
+            roosterridgeofficial@gmail.com
+          </a>
+          <a href="tel:15136000799" style={{ fontSize: "1.1rem" }}>
+            513-600-0799
+          </a>
+          <a
+            href="https://www.facebook.com/RoosterRidgeOfficial/"
+            style={{ fontSize: "1.1rem" }}
+          >
+            Facebook
+          </a>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }

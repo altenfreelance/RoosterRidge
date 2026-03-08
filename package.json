@@ -1,52 +1,26 @@
 {
   "name": "roosterridge",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
-  "dependencies": {
-    "@actions/core": "^1.9.1",
-    "@actions/github": "^5.0.3",
-    "@iconify/react": "^3.2.1",
-    "compress-images": "^2.0.5",
-    "dotenv": "^16.0.3",
-    "gifsicle": "5.2.1",
-    "ics": "^2.40.0",
-    "md-yaml-json": "^1.1.1",
-    "node-fetch": "2",
-    "pngquant-bin": "6.0.1",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-helmet": "^6.1.0",
-    "react-loading": "^2.0.3",
-    "react-progressive-graceful-image": "^0.7.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.0"
-  },
+  "type": "module",
   "scripts": {
-    "start": "yarn run rr-prepare && react-scripts start",
-    "build": "yarn run rr-prepare && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "yarn run rr-prepare && vite",
+    "build": "yarn run rr-prepare && vite build",
+    "preview": "vite preview",
     "rr-prepare": "yarn run rr-prepare:images && yarn run rr-prepare:gigs",
-    "rr-prepare:images": " rm -rf public/images/compressed/** && rm -rf images-temp/** && mv public/images/** images-temp/. && node compress-images.js && node create-placeholder-images.js && node prepare-gallery.js",
-    "rr-prepare:gigs": "node prepare-gigs.js "
+    "rr-prepare:images": "rm -rf public/images/compressed/** && rm -rf images-temp/** && mv public/images/** images-temp/. && node compress-images.js && node create-placeholder-images.js && node prepare-gallery.js",
+    "rr-prepare:gigs": "node prepare-gigs.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@iconify/react": "^5.2.0",
+    "md-yaml-json": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.1.1",
-    "@testing-library/react": "^9.4.1"
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.0"
   }
 }

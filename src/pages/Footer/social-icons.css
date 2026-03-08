@@ -1,55 +1,23 @@
-.social:hover {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  filter: drop-shadow(0 4px 12px rgba(230, 126, 34, 0.6));
-}
-
-a .social {
-  color: #FFFFFF;
+.social-icons-row {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .social {
-  transform: scale(0.9);
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -o-transform: scale(0.9);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  -moz-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  -o-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  filter: drop-shadow(0 2px 6px rgba(204, 85, 0, 0.3));
+  color: #FFFFFF;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
-/*
-      Multicoloured Hover Variations
-  */
-
-#social-bandcamp:hover {
-  color: #0687f5;
+.social:hover {
+  transform: scale(1.2);
 }
 
-#social-spotify:hover {
-  color: #1DB954;
-}
-
-#social-apple:hover {
-  color: #fa586a;
-}
-
-#social-yt:hover {
-  color: #ff0000;
-}
-
-#social-fb:hover {
-  color: #3B5998;
-}
-
-#social-ig:hover {
-  color: #d6249f;
-}
-
-#social-em:hover {
-  color: #f39c12;
-}
+#social-bandcamp:hover { color: #0687f5; }
+#social-spotify:hover  { color: #1DB954; }
+#social-apple:hover    { color: #fa586a; }
+#social-yt:hover       { color: #ff0000; }
+#social-fb:hover       { color: #3B5998; }
+#social-ig:hover       { color: #d6249f; }
+#social-em:hover       { color: #f39c12; }

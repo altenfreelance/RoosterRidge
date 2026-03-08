@@ -1,36 +1,8 @@
-  /* Member card styles with warm rusty barn colors */
-  .card {
-    background: linear-gradient(145deg, rgba(62, 39, 35, 0.8), rgba(46, 31, 26, 0.9));
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 24px rgba(204, 85, 0, 0.3);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 1.5rem;
-    border-radius: 20px;
-    color: #FFFFFF;
-    border: 2px solid rgba(255, 179, 128, 0.4);
-  }
+.col-sm-4 .container {
+  padding: 8px 20px;
+}
 
-  /* On mouse-over, add elevation and glow */
-  .card:hover {
-    box-shadow: 0 16px 48px rgba(204, 85, 0, 0.5);
-    transform: translateY(-8px) scale(1.02);
-    border-color: rgba(230, 126, 34, 0.6);
-    background: linear-gradient(145deg, rgba(62, 39, 35, 0.9), rgba(46, 31, 26, 1));
-  }
-
-  /* Add some padding inside the card container */
-  .container {
-    padding: 8px 20px;
-  }
-
-  /* Add rounded corners and warm glow to images */
-  img {
-    border-radius: 12px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 16px rgba(204, 85, 0, 0.3);
-  }
-
-  img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 24px rgba(230, 126, 34, 0.5);
-  }
+.col-sm-4 img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(204, 85, 0, 0.2);
+}
